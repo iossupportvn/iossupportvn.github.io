@@ -1,0 +1,965 @@
+Package: vn.iossp.iconrepo
+Version: 1.0
+Priority: required
+Section: System
+Essential: yes
+Maintainer: iOSSupport <iossp@hotmail.com>
+Architecture: iphoneos-arm
+Name: iOSSupport Icon
+Author: QuốcBK <iossp@hotmail.com>
+Description: Gói icon bổ trợ cho nguồn iOSSupport.
+Icon: file:///Library/IconRepos/System.png
+Filename: ./debs/vn.iossp.iconrepo_1.0_iphoneos-arm.deb
+Size: 44434
+MD5sum: 6659d112bf75bfcef4b91d2b5f679abc
+SHA1: 815535230a7905a68528755b5438508460ca402c
+SHA256: c395246b31c311fe84d6a39e068e56c3f4acc27550f836b2be1ab73da91af87d
+
+Package: vn.iossp.fixtube6
+Name: FixTube6
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Description: Fix Youtube on iOS 6 and up.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: Mọt <iossp@hotmail.com>
+Section: Tweak
+Version: 1.0
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.fixtube6_1.0_iphoneos-arm.deb
+Size: 47928
+MD5sum: 0dc199b988a6f3fbc36ed3851b530706
+SHA1: 93647eca14279bd0e44b3ecc84ce72be59491808
+SHA256: 85071cef2cbddf1ab438ae5080c56c69300cd5ad7b2544f04c4e381b31de1bf8
+
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1), vn.iossp.iconrepo
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Maintainer: iOSSupport <iossp@hotmail.com>
+Provides: appsync, net.angelxwind.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Package: vn.iossp.appsyncunified
+Name: AppSync Unified
+Architecture: iphoneos-arm
+Description: iOS 5 - 16.3.1.
+Section: Tweak
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Version: 110.0
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.appsyncunified_110.0_iphoneos-arm.deb
+Size: 87186
+MD5sum: 7dbb704d323c12aef2552edfefc796a8
+SHA1: 92e646047c458caa7a83f121c21537919dc0911f
+SHA256: 2e7ec2e907bb5d2b823e15261bec4871fbc77999b05c82d7ab4b20c3c38899ab
+
+Package: vn.iossp.appsync40plus
+Version: 1.2.2
+Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Section: Tweak
+Maintainer: iOSSupport <iossp@hotmail.com>
+Depends: firmware (>= 4.0), firmware (<< 5.0), vn.iossp.iconrepo
+Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Architecture: iphoneos-arm
+Homepage: https://cydia.angelxwind.net/
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsync40plus
+Name: AppSync for iOS 4.0
+Author: Karen/あけみ, Dissident <angelXwind@angelxwind.net>
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Only for iOS 4.
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.appsync40plus_1.2.2_iphoneos-arm.deb
+Size: 9284
+MD5sum: ec04151a6c9c4c1587f57c2467b49d83
+SHA1: db8bc0daeaae401277341932a96787d064a88503
+SHA256: e5e4b67f9499d53376b29e64b10d2af77947f0cd5468360c627cacac803a430b
+
+Package: vn.iossp.appsync31
+Name: AppSync for OS 3.1
+Version: 1.0.1
+Depends: vn.iossp.iconrepo
+Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
+Architecture: iphoneos-arm
+Section: Tweak
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: Reilly <appsync@hackulo.us>
+Description: AppSync patches the installd file on your device iOS 3.1 - 3.1.4
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.appsync31_1.0.1_iphoneos-arm.deb
+Size: 296524
+MD5sum: 1b589191edb5981e650a911576635387
+SHA1: 61eef1521ec06657183ec03c73687476bc575ace
+SHA256: 5b3341d00b3d2eb496e2192b904003226d026069546d12aede57c4805b4ddbf7
+
+Package: vn.iossp.ytbnoad
+Section: Tweak
+Maintainer: iOSSupport <iossp@hotmail.com>
+Architecture: iphoneos-arm
+Version: 0.1
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Conflicts: me.alfhaily.adblockforyoutube
+Description: remove ads in Youtube app on iOS 6.
+Name: YoutubeNoAd
+Author: Linus Yang
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.ytbnoad_0.1_iphoneos-arm.deb
+Size: 50704
+MD5sum: 14a06e7e67749f526bb570d167554848
+SHA1: 1742a729c796d9f42b986132589eed25db5d076f
+SHA256: 5b31505898cb237b288da6e62f1c295e8196eba5b0f28fcfc367d4330c12b8f4
+
+Package: vn.iossp.disableyoutubeupdates
+Name: DisableYouTubeUpdates
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Description: Disables YouTube update prompts.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: Patrick_Griffin
+Section: Tweak
+Version: 0.0.1
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.disableyoutubeupdates_0.0.1_iphoneos-arm.deb
+Size: 2198
+MD5sum: 2fd1ead5f6e83f4e63ee8ff8214724c6
+SHA1: 6f548b332b91dbb737f24a6f9ff8f7abc6f3c95c
+SHA256: a19d2b34fa4106529fb198092b969ea8a420872ce86687283e5584a51863fe3a
+
+Package: vn.iossp.filza
+Name: Filza File Manager
+Depends: zip, unzip, gzip, unrar, p7zip, vn.iossp.iconrepo
+Conflicts: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: TIGI Software
+Section: Utilities
+Version: 3.7.3-6
+Filename: ./debs/vn.iossp.filza_3.7.3-6_iphoneos-arm.deb
+Size: 12660360
+MD5sum: fa48cd46930df26f8ec7a32ea2f000bb
+SHA1: c96b9201cff77f9125af7e953bcc347ed9b56a93
+SHA256: 7ea7084e8b61f04d3c793af2c8a0fb6de57f90649c7e804f48c02710a980099d
+
+Package: ru.rejail.filza
+Name: Filza Crack
+Version: 4.0.1-4
+Description: Файловый менеджер для iOS
+Author: TIGI Software
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Installed-Size: 19388
+Section: Utilities
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Depiction: https://rejail.ru/depiction.php?file=filza
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=filza
+Size: 7056834
+MD5sum: cdb431eb99e0aac9880556d5eb124ba9
+SHA1: 5d550024c4d0a69d33dff0fd5a838e15da6d0098
+SHA256: 70e4e253d057b6af5adf86f095961516dc19d7b76f2f02e4d5d5e54b35a18f0a
+Filename: ./debs/ru.rejail.filza_4.0.1-4.deb
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+
+Package: vn.iossp.noyoutubemusicads
+Name: NoYouTubeMusicAds
+Architecture: iphoneos-arm
+Description: An awesome YouTube Music AdBlock and play background tweak!
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: atebitsy
+Section: Tweak
+Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo
+Depiction: https://www.atebitsy.com/repo/package/noyoutubemusicads/index.html
+Version: 3.89.4
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.noyoutubemusicads_3.89.4_iphoneos-arm.deb
+Size: 14298
+MD5sum: b5235a63340f531d869a5089d5589b94
+SHA1: 1f5f1009841677510c03ec174f87a32863ac4fd6
+SHA256: 33c7c8abbbca75f750ea9f66b7e0a50931d9abb1a36ced239c817e1841b6b710
+
+Package: vn.iossp.pretify
+Name: Pretify
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Premium hack for Spotify.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: Vincent Lim
+Section: Tweak
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.pretify_1.0_iphoneos-arm.deb
+Size: 12944
+MD5sum: 96e71dbcdb879320a46fdc55275cc311
+SHA1: 57a276807a7e90c15419a5dac09a255270c2f7be
+SHA256: bd34e4faabea5d864ed412622828c43f9d3f277556a5da26bf029f24ade27ac9
+
+Package: vn.iossp.clutch146
+Name: Clutch 1.4.6
+Version: 1.4.6
+Section: Utilities
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: KJCracks
+Architecture: iphoneos-arm
+Pre-Depends: firmware (>= 4.0), org.coolstar.cctools
+Depends: com.ericasadun.utilities, zip, gawk, adv-cmds, bigbosshackertools, firmware (>= 4.0), vn.iossp.iconrepo
+Description: Decrypt  iPAs iOS 4 - 6.
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/vn.iossp.clutch146_1.4.6_iphoneos-arm.deb
+Size: 187624
+MD5sum: 2d74bc4c315de31fc0324032539c7396
+SHA1: 12bfaec7d7dad9847ffd4c58bd1d265eae193b2f
+SHA256: d167a74103bc7f7e4bfd0568da203c2b0a6706b87433827a988585fffa7476ef
+
+Package: vn.iossp.clutch204
+Name: Clutch 2.0.4
+Version: 2.0.4
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 7.0), vn.iossp.iconrepo
+Description: Decrypt  iPAs iOS 7 - 10.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: KJCracks
+Section: Utilities
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/vn.iossp.clutch204_2.0.4_iphoneos-arm.deb
+Size: 457574
+MD5sum: 6448cfbf65f82c145a1a427de12248ab
+SHA1: 36ff9feb5382820a873cd2c8427b040e24a6a12b
+SHA256: 92fb9740e120659d3c1bff4053a39bdfe6e519bb6fbe46f120517deb8ecbd230
+
+Package: vn.iossp.gesturesxs
+Name: GesturesXS
+Version: 3.0
+Section: Tweak
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Author: Ryan Nair
+Maintainer: iOSSupport <iossp@hotmail.com>
+Description: iPhone X gestures, nothing else!
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.gesturesxs_3.0_iphoneos-arm.deb
+Size: 5496
+MD5sum: 66118995547f071fca911acf43a017d3
+SHA1: 2edf08eb8dee425c5e4fabea0bd6acb95c7c6e26
+SHA256: f9303991fc19bc0ae3ee4faa8912547628c8d5adda58ddabe3906f46e81ea5be
+
+Package: vn.iossp.moderndock
+Name: ModernDock
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Description: Enables the native iPhone X dock on older devices.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: NoisyFlake
+Section: Tweak
+Version: 1.0.1
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.moderndock_1.0.1_iphoneos-arm.deb
+Size: 2350
+MD5sum: 500637ad73654206d0d8a51cf080cf06
+SHA1: 913f5190b8d12857c7f83e1d7eecfd600b7aa545
+SHA256: a87ae1dcf0b3537464cba4eb825f67fb737e7e6b4077d96d90206415401551fe
+
+Package: vn.iossp.youtubepatcher
+Name: YouTubePatcher
+Depends: mobilesubstrate, firmware (>= 10.0), vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Description: No inline Ads/Background Play back for YouTube and YouTube Music (iOS >= 10)
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: ichitaso
+Section: Tweak
+Version: 0.3
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.youtubepatcher_0.3_iphoneos-arm.deb
+Size: 5038
+MD5sum: 69b3786f5bf2f31e79698f5921d6bba0
+SHA1: 2bedaaebd307fc281410f120d86601af12a0d934
+SHA256: 254c609341be05ae2becf209aed0d098d20f7112b7e94ba977acaa1e2b00c4cb
+
+Package: vn.iossp.appstoreplusplus
+Name: AppStore++
+Version: 0.10.0
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.
+Section: Tweak
+Depends: firmware (>= 11.0), mobilesubstrate, vn.iossp.iconrepo
+Conflicts: com.unlimapps.uaupdatetools
+Priority: optional
+Architecture: iphoneos-arm
+Author: CokePokes
+Maintainer: iOSSupport <iossp@hotmail.com>
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.appstoreplusplus_0.10.0_iphoneos-arm.deb
+Size: 4216090
+MD5sum: 51b3b65574e108709634439c904b695c
+SHA1: a0a3782a766f891c91eb81c872e4e1d7078fa314
+SHA256: 889a92b4235d4e01cdc82e30d41cc80f1d0d0eee64634bf65288b3983fd48781
+
+Package: vn.iossp.netkillui11
+Name: netKillUIbeta (iOS 11)
+Version: 0.2.1-1
+Description: Kick that nigga bitch off the plane.
+Author: Teggers
+Depends: adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils, firmware (>= 11.0), vn.iossp.iconrepo
+Conflicts: eu.teggers.netKillUI
+Section: Tweak
+Architecture: iphoneos-arm
+Maintainer: iOSSupport <iossp@hotmail.com>
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/ru.rejail.netkillui11_0.2.1-1.deb
+Size: 600676
+MD5sum: dbd1a3176f827b5f868d87ba8a8d2e33
+SHA1: 107af1345df74a47bb2cf0b7955a033c4ab7f4fb
+SHA256: f01ce4bf2387327247aceaf4e151d6360408815738780187fbafefa8f28c18af
+
+Package: vn.iossp.fiona
+Name: Fiona
+Author: julioverne
+Version: 0.1
+Depends: mobilesubstrate, preferenceloader, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Description: Keep WiFi Always Connected.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Section: Tweak
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.fiona_0.1_iphoneos-arm.deb
+Size: 48902
+MD5sum: 6d73b549a5ee86abedfe041a86876a1f
+SHA1: f37810223845486a3697ec64412af96d6561fe31
+SHA256: 5c329d04a1b67721fb88cd3fe6f8b70884d10ebd28e1a1b7e2a469a341893e28
+
+Package: vn.iossp.bfdecrypt
+Name: bfdecrypt
+Description: bfdecrypt for iOS 11+, decrypt app.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: BishopFox
+Section: Tweak
+Depends: mobilesubstrate, com.opa334.altlist, firmware (>=11.0), vn.iossp.iconrepo
+Architecture: iphoneos-arm64
+Version: 1.3.5
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.bfdecrypt_1.3.5_iphoneos-arm64.deb
+Size: 122682
+MD5sum: 62f4882d73b710376bfcdae4fe02c6a1
+SHA1: 5a5e801251538d4ab0573c6a0bfbc0c916a1bc48
+SHA256: 7b12a3b16f89ce44a83d539fc420ee810adb01f20c8b94b852ad88b3c4226d30
+
+Package: vn.iossp.netkillui
+Name: netKILLUI
+Version: 0.2.1-1
+Description: Kích mấy thằng xài wifi chùa của bạn¸
+Author: Teggers
+Depends: ru.rejail.arp-scan, ru.rejail.dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils, vn.iossp.iconrepo
+Section: Tweak
+Architecture: iphoneos-arm
+Maintainer: iOSSupport <iossp@hotmail.com>
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.netkillui_0.2.1-1_iphoneos-arm.deb
+Size: 260918
+MD5sum: bbb69fbeab394cf63e1d5a0c516e0062
+SHA1: 63b8d5e88c3375f1486fb42bb22cad5aacf8c8a1
+SHA256: 25e0eca259126cdb87e6bb36173f478c12bd1a57339444d9b8552155d21a6024
+
+Package: ru.rejail.arp-scan
+Name: arp-scan
+Version: 1.8.1-1
+Description: ARP scanning and fingerprinting tool. Arp-scan is a command-line tool that uses the ARP protocol to discover and fingerprint IP hosts on the local network. It is available under the GPL licence (GPLv3)
+Author: Roy Hills <Roy.Hills@nta-monitor.com>
+Depends: ru.rejail.libpcap
+Section: Utilities
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/ru.rejail.arp-scan_1.8.1-1.deb
+Size: 226204
+MD5sum: b02ed0502f56190fee4bc6b5a42bac8f
+SHA1: a98e7fba0403ce3568810846ef9b48ab2a7c223b
+SHA256: c26b3185494578a3ae5e62cfc02e741fc8b9812b84d4850f2328a283e0b9a521
+
+Package: ru.rejail.dsniff
+Name: dsniff
+Version: 2.4b2-1
+Description: Dsniff Suite Of Pentesting Tools For iPhone. dsniff is a collection of tools for network auditing and penetration testing. dsniff, filesnarf, mailsnarf, msgsnarf, urlsnarf, and webspy passively monitor a network for interesting data (passwords, e-mail, files, etc.). arpspoof, dnsspoof, and macof facilitate the interception of network traffic normally unavailable to an attacker (e.g, due to layer-2 switching). sshmitm and webmitm implement active monkey-in-the-middle attacks against redirected SSH and HTTPS sessions by exploiting weak bindings in ad-hoc PKI.
+Author: Dug Song <dugsong@monkey.org>
+Conflicts: org.mulliner.dsniff
+Replaces: org.mulliner.dsniff
+Section: Utilities
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/ru.rejail.dsniff_2.4b2-1.deb
+Size: 671486
+MD5sum: fcf04c6ee7a396b519a352504aa5a195
+SHA1: d92dc83a538100c4811d1e8329808b443bbfe9b6
+SHA256: 1ee71869b5c00c777a49a6186671ff9fcd09a62cf14bfbeb325ba74107761d19
+
+Package: ru.rejail.libpcap
+Name: libpcap
+Version: 1.4.0
+Description: Libpcap, a portable C/C++ library for network traffic capture.
+Author: libpcap <repo@hackyouriphone.org>
+Depends: mobilesubstrate
+Section: Utilities
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/ru.rejail.libpcap_1.4.0.deb
+Size: 208138
+MD5sum: e9d3c4f33bde48077e4f12964cf97e65
+SHA1: 057cec12c3c438ca3b197b715d4bcea1be2a5bac
+SHA256: fc319fc7866e0fd3325cd6722abd909e799829feb08662569d9fba5f2b394d46
+
+Package: vn.iossp.letmepass
+Name: LetMePass
+Description: Bypasses YouTube's update alert
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: Snoolie K
+Section: Tweak
+Architecture: iphoneos-arm
+Version: 1.4
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.letmepass_1.4_iphoneos-arm.deb
+Size: 5446
+MD5sum: 52f0c3c93c36590fc622f3a7de3de26a
+SHA1: 17d0cfafd28cfda3ea71a004676a903fe81fbf00
+SHA256: aa8e33044807809c24012e83e9839568d101832cf0c5cdd39c345bf42d656e7e
+
+Package: vn.iossp.noytads
+Name: NoYTAds
+Author: zachary7829
+Description: No Ads in YouTube.
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Maintainer: iOSSupport <iossp@hotmail.com>
+Architecture: iphoneos-arm
+Section: Tweak
+Version: 1.0.0-1+debug
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.noytads_1.0.0-1+debug_iphoneos-arm.deb
+Size: 7350
+MD5sum: 4234a7661c2cb8da5f3bfdad7aca4e87
+SHA1: 1e6e392eb7a6451c0658f057a87cc6d6ef62b96e
+SHA256: 7d381032e50cce8ec1cf559bd1857dffd16ad2c4834e6d01204a3e9fa69e3561
+
+Package: vn.iossp.tuberepair
+Name: TubeRepair [BETA]
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: bag.xml, Requis
+Section: Tweak
+Depends: mobilesubstrate, preferenceloader, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Version: 1.2-Beta-1
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.tuberepair_1.2-Beta-1_iphoneos-arm.deb
+Size: 100152
+MD5sum: 447ff7ed78f6cad0164d31a7858ecd48
+SHA1: 6c8cd53b9c45f82929ad8cdb90800f019a7dc29c
+SHA256: db056321eedc4d379146bc255b5b0f1a6f99f1de1b6c6dbe6daab6a63c59868d
+
+Package: com.hackyouriphone.classiclockscreen
+Name: ClassicLockScreen
+Version: 3.3.1k
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), curl, firmware(<< 8.0) | org.coolstar.libclassictelephonyui (>= 1.1-1)
+Architecture: iphoneos-arm
+Author: CoolStar, Jeremy Goulet, Phillip Tennen <repo@hackyouriphone.org>
+Section: HYI - Tweaks
+Description: Hate the iOS 7 Lock Screen?
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/org.coolstar..classiclockscreen_3.3.1_iphoneos-arm.deb
+Size: 736186
+MD5sum: 7d5da71444883fec6d4273860d981ca3
+SHA1: 3959241070d7b0a0cd41b21a733aaa70351962e1
+SHA256: 225d085f3b8af7bd9b3f1b479efa56c9804c87e7afa322689dc676ffe83ff2ef
+
+Package: vn.iossp.cacheclearer11
+Name: CacheClearer
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), vn.iossp.iconrepo
+Conflicts: com.rpetrich.cacheclearer
+Architecture: iphoneos-arm
+Description: Clear app caches from the Usage section in Settings
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: Ryan Petrich, julioverne
+Section: Tweak
+Version: 0.1a
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.cacheclearer11_0.1a_iphoneos-arm.deb
+Size: 9272
+MD5sum: af6969b764325daac6612e089d9eee74
+SHA1: 2200d830427191d740a93e4438b3f907b825fbff
+SHA256: bd01c999aa8bfe56fe8fcc99df13e6264fcab338ed9263016ddd79ca3eb2ad33
+
+Package: vn.iossp.appadmin
+Name: App Admin
+Version: 1.0r-102
+Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
+Section: System
+Depends: firmware (>= 7.0), mobilesubstrate, vn.iossp.iconrepo
+Conflicts: it.marcocristalli.asupdatehider
+Priority: optional
+Architecture: iphoneos-arm
+Author: UnlimApps Inc.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Icon: file:///Library/IconRepos/System.png
+Filename: ./debs/vn.iossp.appadmin_1.0r-102_iphoneos-arm.deb
+Size: 850136
+MD5sum: 3749c2f8784164dd864399c42a84516a
+SHA1: 6690fef4d6e7b991b21849c862d595b7ed013ae0
+SHA256: 0b519b3d5c3f965e486529a0e96bfe3536d227aa25ed0f44f6630f077d1fa23d
+
+Package: vn.iossp.ncsettings
+Name: NCSettings
+Version: 1.7.1
+Architecture: iphoneos-arm
+Author: JamieD360 <jamied360support@live.co.uk>
+Depends: firmware (>= 5.0), mobilesubstrate, vn.iossp.weeloader, preferenceloader, vn.iossp.iconrepo
+Priority: extra
+Section: Tweak (NotificationCenter)
+Description: NCSettings is a sleek Notification Center toggle widget
+Maintainer: iOSSupport <iossp@hotmail.com>
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.ncsettings_1.7.1_iphoneos-arm.deb
+Size: 472576
+MD5sum: b2dd6d0c1f328532da965ae957a3f70e
+SHA1: 2bdfd5e71e530edf3fca3a9d18817de5a2fa73a4
+SHA256: a581ee88f7cd2ef1ef4abdd65c7493315a93c9447dbe0f34fec953ad6df6fecb
+
+Package: vn.iossp.itunesstorex
+Name: iTunesStoreX
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: Requis, Bag.xml
+Section: System
+Depends: mobilesubstrate, firmware(<==7.9), vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Version: 2.5
+Icon: file:///Library/IconRepos/System.png
+Filename: ./debs/vn.iossp.itunesstorex_2.5_iphoneos-arm.deb
+Size: 111886
+MD5sum: 6f6d5e66c1f142311cdd3012425515d3
+SHA1: 2ecdacb99f4fb461fc5124609030f8da3e9a059b
+SHA256: e926168acfcd9ea7fdcc18c6d038151f36b313b76ecfd5086546bc436b838e5f
+
+Package: vn.iossp.iconfix
+Name: iFile/MTerminal icon fix
+Version: 4.0.1
+Architecture: iphoneos-arm
+Depends: curl, vn.iossp.iconrepo
+Description: A shell script that fixes the iFile and MTerminal icons on iOS 6 and below.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: OldWorldOrder <joey.t.reinhart@gmail.com>
+Section: System
+Icon: file:///Library/IconRepos/System.png
+Filename: ./debs/vn.iossp.iconfix.deb
+Size: 2104
+MD5sum: 23d33d5d0bacf3655de4dca39fe7d5b2
+SHA1: b74f633f9c89311498ae7c6a4c9feb009065cc90
+SHA256: bf733aa34d5c4e5cd6ebbfb2a0afee4e5dd265f1b7f9b4d15032354206065b9c
+
+Package: vn.iossp.cydown
+Name: CyDown
+Version: 6.0.6
+Architecture: iphoneos-arm
+Description: Install paid packages for Free in Cydia!
+Author: julioverne
+Maintainer: iOSSupport <iossp@hotmail.com>
+Section: Tweak
+Depends: cydia (>= 1.1.23), mobilesubstrate, preferenceloader, firmware (<< 8.3) | ldid (>= 1:1.2.1), coreutils-bin, coreutils, apt7, vn.iossp.iconrepo
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.cydown_6.0.6_iphoneos-arm.deb
+Size: 632282
+MD5sum: 7c33d48a2c9ff64fe1bcd79b45b66634
+SHA1: e6156308f2bb9e385e5b3e2560f682511d024e46
+SHA256: 39356e8761af11eecd2173807325fcbd7ce74cc86c5f89bdd7944c555e27495d
+
+Package: vn.iossp.nativeqr
+Name: NativeQR
+Version: 1.0.0b2
+Depends: firmware (>= 6.0), mobilesubstrate, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Author: Evan Swick <repo@hackyouriphone.org>
+Section: Tweak
+Description: QR code support in Camera & Contacts
+Maintainer: iOSSupport <iossp@hotmail.com>
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.nativeqr_1.0.0b2_iphoneos-arm.deb
+Size: 122046
+MD5sum: 3078cd26b387d3213171efe2aa4106bb
+SHA1: ffa80f334f4395cdc2ef52e2cb1745b3e5795c36
+SHA256: 19c3d50607e4d176dd2da24154add49affd1c3a8806507fa8d22530d740b41c8
+
+Package: vn.iossp.adowngrader
+Name: Adowngrader
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Description: Downgrade your apps. Well, at least try it.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: H6nry <henry.anonym@gmail.com>
+Section: Tweak
+Version: 0.0.2-7
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.adowngrader_0.0.2-7_iphoneos-arm.deb
+Size: 58202
+MD5sum: 1a18918fad94b3f322920f3317506f07
+SHA1: 7be51d858f31995164bc0b9d8a328f28f4a137b6
+SHA256: e16978dc5dd2d0aa2354305e6b9b1be21cb1a484048dc284c1f71f8ccca497a9
+
+Package: vn.iossp.ifile
+Version: 2.2.0-1
+Section: Application
+Maintainer: iOSSupport <iossp@hotmail.com>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system.
+Name: iFile
+Author: Carsten Heinelt
+Icon: file:///Library/IconRepos/Application.png
+Filename: ./debs/vn.iossp.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9746586
+MD5sum: 613d7aa7dc73d902ef9eeb6e05dd9f3f
+SHA1: abb70a83d7ac78573c2b3ed08a3fee14298049b0
+SHA256: 891f8c2b58711bf5b7d3dd509b63a43758fe188dfbc2b4f651107b98fc543790
+
+Package: vn.iossp.kDFUApp
+Name: kDFUApp
+Version: 1.0.3
+Architecture: iphoneos-arm
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, vn.iossp.kDFUBundles, firmware (>= 6.0), vn.iossp.iconrepo
+Priority: optional
+Description: easy way to get into kDFU mode.
+Author: tihmstar
+Maintainer: iOSSupport <iossp@hotmail.com>
+Section: System
+Icon: file:///Library/IconRepos/System.png
+Filename: ./debs/vn.iossp.kDFUApp_1.0.3_iphoneos-arm.deb
+Size: 80282
+MD5sum: ac8d238259a12cc98e47e36b0f8b4095
+SHA1: 00f9de9f6a70c6469f74148473cb3f44352c8a1e
+SHA256: 3f7ca3e4b7501f46abb3f92bddac587167e3cab42ad9722d67411b593b64f0d9
+
+Package: vn.iossp.kDFUBundles
+Name: kDFUApp Bundles
+Version: 1.0.1
+Architecture: iphoneos-arm
+Depends: vn.iossp.kDFUApp, vn.iossp.iconrepo
+Description: More device support for kDFUApp
+Author: LukeZGD
+Maintainer: iOSSupport <iossp@hotmail.com>
+Section: System
+Icon: file:///Library/IconRepos/System.png
+Filename: ./debs/vn.iossp.kDFUBundles_1.0.1_iphoneos-arm.deb
+Size: 10764
+MD5sum: 5297fac064dff54863a2f0cbd920e5f4
+SHA1: be1765c858286cb02c7987bf1ee1f0839b638dc5
+SHA256: 753eea5c087df9fe6175e79e9ce0cc8eb2f2e3a210f3266262744e28aad5d706
+
+Package: libpartialzip-1.0.0
+Name: libpartialzip-1.0.0
+Version: 1.0
+Section: Utilities
+Depends: firmware (>= 6.0), libcrippy-1.0.0, vn.iossp.iconrepo
+Priority: optional
+Architecture: iphoneos-arm
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Maintainer: iOSSupport <iossp@hotmail.com>
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/libpartialzip-1.0.0_1.0_iphoneos-arm.deb
+Size: 6854
+MD5sum: 3b82ed4cb8847123bad7c111ff47b203
+SHA1: 2102d0982a79278e2823f6207644391b60c00511
+SHA256: aeff90d408ac50b74d4f40e8aa9a57a1c0e84533f5437bacf23da291c5b37063
+
+Package: libcrippy-1.0.0
+Name: libcrippy-1.0.0
+Version: 1.0
+Section: Utilities
+Depends: firmware (>= 6.0), vn.iossp.iconrepo
+Priority: optional
+Architecture: iphoneos-arm
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Maintainer: iOSSupport <iossp@hotmail.com>
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/libcrippy-1.0.0_1.0_iphoneos-arm.deb
+Size: 15888
+MD5sum: bd0fbd0d732c096279bbdc670e6e753e
+SHA1: 66fcd87fd5a69c3b0564ba70f993f0e976aceb62
+SHA256: 18b4e6a4bab6a64988868fc52c0b4a83f89f541b8cc48355318617c91047de0c
+
+Package: kloader
+Name: kloader
+Version: 1.0
+Section: Utilities
+Depends: firmware (>= 6.0), vn.iossp.iconrepo
+Conflicts: cy+cpu.arm64
+Description: Don't install if you don't know what that is
+	Do not install this package if you don't know what this is.
+	Installing this on a production device is not recommended.
+Priority: optional
+Architecture: iphoneos-arm
+Author: winocm, xerub
+Maintainer: iOSSupport <iossp@hotmail.com>
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/kloader_1.0_iphoneos-arm.deb
+Size: 7968
+MD5sum: bf737cdfc86feb9808bfa86c20d4ba97
+SHA1: 048103209fa74ee391bf3271b1963ce6444fa025
+SHA256: 46370fb0de85a2bd4af738878796116306ec8a924472c0701c192b732374d93d
+
+Package: vn.iossp.yourtube6
+Version: 6.5.5-6
+Section: Tweak
+Maintainer: iOSSupport <iossp@hotmail.com>
+Pre-Depends: firmware (>= 6.0)
+Depends: vn.iossp.iconrepo, mobilesubstrate, preferenceloader, co.cocoanuts.gremlin (>= 3.0), co.cocoanuts.gremlin.activities
+Conflicts: org.thebigboss.protube2, vn.gsm.protube2, vn.gsm.yourtube
+Architecture: iphoneos-arm
+Description: Best YouTube downloader on iOS6. Period
+Name: YourTube 6
+Author: CocoaNuts <repo@cydia.vn>
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.yourtube6_6.5.5-6_iphoneos-arm.deb
+Size: 178308
+MD5sum: d6e5f792ee0bffa4da949018a0e4e089
+SHA1: 940096c6a6fa836f94bc5227d914ece6423ad8e1
+SHA256: 0fc699b0d840c91faf6ed7ac09577fce57a140991e58ae6efd308ea7acfdcd10
+
+Package: vn.iossp.legacyappstore
+Name: Legacy AppStore
+Depends: mobilesubstrate, firmware (>= 2.0), vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Description: a tweak from invoxiplaygames.
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: Invoxi
+Section: System
+Version: 1.0
+Icon: file:///Library/IconRepos/System.png
+Filename: ./debs/vn.iossp.legacyappstore_1.0_iphoneos-arm.deb
+Size: 7230
+MD5sum: 3c1f5e268f30b17f733643d54e019280
+SHA1: 79a5dd4186fc8a9cead57a33dd79892935f7cfe8
+SHA256: a4eeb98c00cf4527f1331749faee8ae45411b0e2ee3b00c63eb7c151c9f4b5a2
+
+Package: net.nekokawa.appstorefix
+Name: StoreSSLFix
+Description: AppStore SSL connection Fix Tweak
+Maintainer: nekokawa
+Author: nekokawa
+Section: Tweak
+Depends: mobilesubstrate, firmware (>= 6.0), firmware (<= 7.1.2), preferenceloader, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Version: 0.3.3-1+debug
+Installed-Size: 124
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/net.nekokawa.appstorefix_0.3.3-1+debug_iphoneos-arm.deb
+Size: 9548
+MD5sum: 56e8e308f530a3334154d75ba8c23401
+SHA1: 5f97193166c4cbde4dd0bca1dc1bfac719034fc4
+SHA256: f42b0cf26eaa4f35a7d890ea22871250bebfc501d5b42c0cb89ebf92ef78e344
+
+Author: satou@aoiblog.jp
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Name: AppStoreFix
+Package: vn.iossp.appstorefix
+Depends: net.nekokawa.appstorefix ,vn.iossp.legacyappstore ,com.innoying.sbutils ,vn.iossp.iconrepo
+Section: System
+Version: 1.0-7
+Architecture: iphoneos-arm
+Description: Special thanks to Aoiblog, Invoxiplaygames and Nekokawa for these awesome tweak! Sincerely, iOSSupportVN.
+Icon: file:///Library/IconRepos/System.png
+Filename: ./debs/vn.iossp.appstorefix.deb
+Size: 1394
+MD5sum: 9541733290882a0a2a855862c4899fa9
+SHA1: c30aafa34e681ac765d054440a93c3154ec22017
+SHA256: e4f732afb2d5605485a9829fd68e6210a5a1bccb7051ffc639845d4b81163ce2
+
+Package: vn.iossp.googlefix
+Name: GoogleFix
+Description: Fixes Google search on iOS 6
+Maintainer: iOSSupportVN
+Author: Victor
+Section: Tweak
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Version: 1.0.2
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.googlefix.deb
+Size: 8530
+MD5sum: 121054eb1800bfc2a58b9a8dfc0d0300
+SHA1: 78408d6c39c879e6dfebbbe05dfb0245874a693b
+SHA256: 6a8737ae26c9a297879fe5863cb7cc2d29dbc4c4490f1e53e911573f4e9aaee2
+
+Package: vn.gsm.classicfolders
+Version: 1.4.1k
+Section: Tweak
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Architecture: iphoneos-arm
+Description: Bring back iOS 6 folders to iOS 7/8/9!
+Name: ClassicFolders
+Author: CoolStar & Jeremy Goulet
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/classicfolders_1.4.1k.deb
+Size: 2345020
+MD5sum: 3372a48e79da19eac464931d9c01944b
+SHA1: 4356f6553f89567bad535b6f3da2e3016b6e6296
+SHA256: a664355d956a121de7109da7c03f72024c32957644f99b5f1ed6f86d2ce2c078
+
+Package: vn.iossp.itunesstorex7
+Name: iTunesStoreX7
+Description: A fix for the iOS 7 AppStore! Original Tweak & Method by bag.xml & Requis!
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: Jyvee
+Section: System
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Version: 0.2.5-5+debug
+Icon: file:///Library/IconRepos/System.png
+Filename: ./debs/vn.iossp.itunesstorex7_0.2.5-5+debug_iphoneos-arm.deb
+Size: 2090388
+MD5sum: 35d80a3434d596e4cf65e063d346fbc9
+SHA1: 1eceaf67c5742648d653b34dc154432ab160d063
+SHA256: a7591864901a239da7ecef40b34b8184b3f59476cf8d8d3d4d23a75ef4160cee
+
+Author: chpwn <support@chpwn.com>
+Maintainer: iOSSupport <iossp@hotmail.com>
+Name: WeeLoader
+Package: vn.iossp.weeloader
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, vn.iossp.iconrepo
+Section: Utilities
+Version: 1.2-1
+Architecture: iphoneos-arm
+Description: Weeeeeeeeeee! Load Wee apps safely.
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/vn.iossp.weeloader_1.2-1_iphoneos-arm.deb
+Size: 3742
+MD5sum: 6373f28302c6b0e43a7b8c4b6835380e
+SHA1: 98c5da92fc59a9c9316d4dc7182c71e7e85bf7c6
+SHA256: c4a54a2e35690c88e2db02b7c61bbc90cff2d996895021a54daf5360e963f3d4
+
+Package: vn.iossp.Discord
+Name: Discord Classic
+Version: 0.8.5
+Architecture: iphoneos-arm
+Description: Discord client for iOS 5 & 6 by Trevir
+Maintainer: iOSSupport<iossp@hotmail.com>
+Author: Trevir <triveri@outlook.com>
+Section: Application
+Depends: firmware (>=5.0), vn.iossp.iconrepo
+Icon: file:///Library/IconRepos/Application.png
+Filename: ./debs/vn.iossp.Discord_0.8.5_iphoneos-arm.deb
+Size: 482654
+MD5sum: ac72f5e256953c3fe7dfc83749c61604
+SHA1: eb13f17b540cf58db49371090287320f1c718b35
+SHA256: 857a9650fff3a110b34f8c99fbd3f8de34b7ea3176ff5274c072c4b187561ffa
+
+Package: vn.iossp.legacyui
+Name: LegacyUI
+Description: An awesome MobileSubstrate tweak!
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: fem67
+Section: Tweak
+Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Version: 0.0.1-1+debug
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.legacyui_0.0.1-1+debug_iphoneos-arm.deb
+Size: 5940
+MD5sum: fc8061d04060e8937bbbbff733b53424
+SHA1: 1f8864c2e6120a0b862ac4ed97e1c41824fa01f0
+SHA256: 280caeb5ae98082115cf9180e70b2ae47ea50c825d255abfb0b03dbf1efc7a26
+
+Package: vn.iossp.storeloginfix
+Name: StoreLoginFix
+Description: Fix login the AppStore for iOS 5 and older
+Maintainer: iOSSupport <iossp@hotmail.com>
+Author: nekokawa
+Section: Tweak
+Depends: mobilesubstrate (>= 0.9.5000), firmware (<= 5.1.1), vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Version: 0.0.4-1+debug
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.storeloginfix_0.0.4-1+debug_iphoneos-arm.deb
+Size: 12786
+MD5sum: d4ae0f1f1f73bb28f9d0a7a69ed01186
+SHA1: 3f7c82923427b3be2d9e6a3d907ca29cdc4e4edb
+SHA256: a98883a0ea44ad5c8d482a694fe5aed5766bd4faa72d4cbdaf715f66c215aec5
+
+Author: plipala <plipala@foxmail.com>
+Maintainer: iOSSupport <iossp@hotmail.com>
+Name: CCSettings for iOS 8/9
+Package: vn.iossp.ccsettings8
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), vn.iossp.iconrepo
+Conflicts: com.plipala.ccsettings
+Section: Tweak
+Version: 0.0.7-8
+Architecture: iphoneos-arm
+Description: More toggles for iOS 8/9 ControlCenter
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.ccsettings8_0.0.7-8_iphoneos-arm.deb
+Size: 1100472
+MD5sum: 5f087745c85c4c6101f52fd4970a662f
+SHA1: 1b89293a03f97e6df45a25b269dd773dcaa8b653
+SHA256: 257dc4c5c54494f7efc78afdcb2968856a7b35a16b620266de43e07dc0bf1e4a
+
+Package: vn.iossp.tubereplacer
+Name: TubeReplacer
+Description: A fix for YouTube with sign-in.
+Maintainer: iOSSupprotVN <iossp@hotmail.com>
+Author: Preloading <me@preloading.dev>
+Section: Tweak
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0), vn.iossp.iconrepo
+Conflicts: bag.xml.tuberepair
+Architecture: iphoneos-arm
+Version: 1.0.3
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.tubereplacer_1.0.3_iphoneos-arm.deb
+Size: 320228
+MD5sum: 09422c7d9f2f18b521f592cfa3506bc9
+SHA1: 399e755cb5956c446b2987b263c7ceb012b24e65
+SHA256: e4a304350715ca6c8dcd5b42cbf9ee465d5c8def78c801b976f9335756193e8e
+
+Homepage: http://ultrasn0w.com/
+Package: ultrasn0w
+Name: ultrasn0w
+Version: 1.2.8
+Architecture: iphoneos-arm
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Maintainer: Dev Team <blog@iphone-dev.org>
+Author: Dev Team <blog@iphone-dev.org>
+Section: Utilities
+Depends: vn.iossp.iconrepo, firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1) | mobilesubstrate (>= 0.9.3900)
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/ultrasn0w_1.2.8_iphoneos-arm.deb
+Size: 15292
+MD5sum: 427504e26e31bfd03d14374b7f120d54
+SHA1: 2d74e1fa4b7e959bdf33b3039f1f0679ae8facf2
+SHA256: abdf8a1e4ffa9321b72ab19a3759d2aa429d9830d662dc4344d0e771fe2b5e73
+
+Package: vn.iossp.ytlegacybg
+Name: YTLegacyBG
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Background playing for YouTube app on iOS 5 - 9.
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: iOSSupportVN
+Section: Tweak
+Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.ytlegacybg_1.0_iphoneos-arm.deb
+Size: 5254
+MD5sum: d14f0901f5c578e34de2a717c7f4c109
+SHA1: 66c44a4b9c964766dff0696421620417c0f8327e
+SHA256: 9f4b152dcea66c9a888d9a13bd1a9c232bf2b03da49dc7f368e641c8acd518de
+
+Package: vn.iossp.screensaverip4s
+Name: ScreenSaver iP4s
+Version: 1.0
+Architecture: iphoneos-arm
+Description: DemoApp on iPhone 4S, Y not?
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: iOSSupportVN <iossp@hotmail.com>
+Section: Application
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), firmware (<< 10.0), vn.iossp.iconrepo
+Icon: file:///Library/IconRepos/Application.png
+Filename: ./debs/vn.iossp.screensaverip4s_1.0_iphoneos-arm.deb
+Size: 47244322
+MD5sum: 03cc3c24fe81f8e9e4a350aa6465c4fe
+SHA1: 400d207fb1f893245608905973f637150e13904e
+SHA256: 8375a34436e6326071acaddd62372c3be96956729da007b0f6e3d7a47c0d7224

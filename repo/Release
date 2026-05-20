@@ -1,0 +1,8 @@
+Origin: iOSSupport
+Label: iOSSupport VN
+Suite: stable
+Version: 1.0
+Codename: cydia-ios
+Architectures: iphoneos-arm
+Components: main
+Description: Bùi Kiến Quốc - A Vietnamese guy who loves vintage devices.
