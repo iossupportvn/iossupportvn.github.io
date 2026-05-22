@@ -329,7 +329,7 @@ Maintainer: iOSSupport <iossp@hotmail.com>
 Author: BishopFox
 Section: Tweak
 Depends: mobilesubstrate, com.opa334.altlist, firmware (>=11.0), vn.iossp.iconrepo
-Architecture: iphoneos-arm iphoneos-arm6464
+Architecture: iphoneos-arm iphoneos-arm64
 Version: 1.3.5
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.bfdecrypt_1.3.5_iphoneos-arm64.deb
