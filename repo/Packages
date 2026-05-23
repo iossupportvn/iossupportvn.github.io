@@ -4,7 +4,7 @@ Priority: required
 Section: System
 Essential: yes
 Maintainer: iOSSupport <iossp@hotmail.com>
-Architecture: iphoneos-arm64
+Architecture: all
 Name: iOSSupport Icon
 Author: QuốcBK <iossp@hotmail.com>
 Description: Gói icon bổ trợ cho nguồn iOSSupport.
@@ -18,7 +18,7 @@ SHA256: c395246b31c311fe84d6a39e068e56c3f4acc27550f836b2be1ab73da91af87d
 Package: vn.iossp.fixtube6
 Name: FixTube6
 Depends: mobilesubstrate, vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Fix Youtube on iOS 6 and up.
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: Mọt <iossp@hotmail.com>
@@ -39,7 +39,7 @@ Provides: appsync, net.angelxwind.appsyncunified
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Package: vn.iossp.appsyncunified
 Name: AppSync Unified
-Architecture: iphoneos-arm64
+Architecture: all
 Description: iOS 5 - 16.3.1.
 Section: Tweak
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
@@ -59,7 +59,7 @@ Section: Tweak
 Maintainer: iOSSupport <iossp@hotmail.com>
 Depends: firmware (>= 4.0), firmware (<< 5.0), vn.iossp.iconrepo
 Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
-Architecture: iphoneos-arm64
+Architecture: all
 Homepage: https://cydia.angelxwind.net/
 Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsync40plus
 Name: AppSync for iOS 4.0
@@ -77,7 +77,7 @@ Name: AppSync for OS 3.1
 Version: 1.0.1
 Depends: vn.iossp.iconrepo
 Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
-Architecture: iphoneos-arm64
+Architecture: all
 Section: Tweak
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: Reilly <appsync@hackulo.us>
@@ -92,7 +92,7 @@ SHA256: 5b3341d00b3d2eb496e2192b904003226d026069546d12aede57c4805b4ddbf7
 Package: vn.iossp.ytbnoad
 Section: Tweak
 Maintainer: iOSSupport <iossp@hotmail.com>
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 0.1
 Depends: mobilesubstrate, vn.iossp.iconrepo
 Conflicts: me.alfhaily.adblockforyoutube
@@ -109,7 +109,7 @@ SHA256: 5b31505898cb237b288da6e62f1c295e8196eba5b0f28fcfc367d4330c12b8f4
 Package: vn.iossp.disableyoutubeupdates
 Name: DisableYouTubeUpdates
 Depends: mobilesubstrate, vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Disables YouTube update prompts.
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: Patrick_Griffin
@@ -126,7 +126,7 @@ Package: vn.iossp.filza
 Name: Filza File Manager
 Depends: zip, unzip, gzip, unrar, p7zip, vn.iossp.iconrepo
 Conflicts: com.tigisoftware.filza64bit
-Architecture: iphoneos-arm64
+Architecture: all
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: TIGI Software
@@ -146,7 +146,7 @@ Author: TIGI Software
 Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
 Installed-Size: 19388
 Section: Utilities
-Architecture: iphoneos-arm64
+Architecture: all
 Maintainer: ReJail <rejail@rejail.ru>
 Depiction: https://rejail.ru/depiction.php?file=filza
 SileoDepiction: https://rejail.ru/sileo/depiction.php?file=filza
@@ -159,7 +159,7 @@ Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, c
 
 Package: vn.iossp.noyoutubemusicads
 Name: NoYouTubeMusicAds
-Architecture: iphoneos-arm64
+Architecture: all
 Description: An awesome YouTube Music AdBlock and play background tweak!
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: atebitsy
@@ -178,7 +178,7 @@ Package: vn.iossp.pretify
 Name: Pretify
 Depends: mobilesubstrate, vn.iossp.iconrepo
 Version: 1.0
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Premium hack for Spotify.
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: Vincent Lim
@@ -196,7 +196,7 @@ Version: 1.4.6
 Section: Utilities
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: KJCracks
-Architecture: iphoneos-arm64
+Architecture: all
 Pre-Depends: firmware (>= 4.0), org.coolstar.cctools
 Depends: com.ericasadun.utilities, zip, gawk, adv-cmds, bigbosshackertools, firmware (>= 4.0), vn.iossp.iconrepo
 Description: Decrypt  iPAs iOS 4 - 6.
@@ -210,7 +210,7 @@ SHA256: d167a74103bc7f7e4bfd0568da203c2b0a6706b87433827a988585fffa7476ef
 Package: vn.iossp.clutch204
 Name: Clutch 2.0.4
 Version: 2.0.4
-Architecture: iphoneos-arm64
+Architecture: all
 Depends: mobilesubstrate, firmware (>= 7.0), vn.iossp.iconrepo
 Description: Decrypt  iPAs iOS 7 - 10.
 Maintainer: iOSSupport <iossp@hotmail.com>
@@ -227,7 +227,7 @@ Package: vn.iossp.gesturesxs
 Name: GesturesXS
 Version: 3.0
 Section: Tweak
-Architecture: iphoneos-arm64
+Architecture: all
 Depends: mobilesubstrate, vn.iossp.iconrepo
 Author: Ryan Nair
 Maintainer: iOSSupport <iossp@hotmail.com>
@@ -242,7 +242,7 @@ SHA256: f9303991fc19bc0ae3ee4faa8912547628c8d5adda58ddabe3906f46e81ea5be
 Package: vn.iossp.moderndock
 Name: ModernDock
 Depends: mobilesubstrate, vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Enables the native iPhone X dock on older devices.
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: NoisyFlake
@@ -258,7 +258,7 @@ SHA256: a87ae1dcf0b3537464cba4eb825f67fb737e7e6b4077d96d90206415401551fe
 Package: vn.iossp.youtubepatcher
 Name: YouTubePatcher
 Depends: mobilesubstrate, firmware (>= 10.0), vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Description: No inline Ads/Background Play back for YouTube and YouTube Music (iOS >= 10)
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: ichitaso
@@ -279,7 +279,7 @@ Section: Tweak
 Depends: firmware (>= 11.0), mobilesubstrate, vn.iossp.iconrepo
 Conflicts: com.unlimapps.uaupdatetools
 Priority: optional
-Architecture: iphoneos-arm64
+Architecture: all
 Author: CokePokes
 Maintainer: iOSSupport <iossp@hotmail.com>
 Icon: file:///Library/IconRepos/Tweak.png
@@ -297,7 +297,7 @@ Author: Teggers
 Depends: adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils, firmware (>= 11.0), vn.iossp.iconrepo
 Conflicts: eu.teggers.netKillUI
 Section: Tweak
-Architecture: iphoneos-arm64
+Architecture: all
 Maintainer: iOSSupport <iossp@hotmail.com>
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/ru.rejail.netkillui11_0.2.1-1.deb
@@ -311,7 +311,7 @@ Name: Fiona
 Author: julioverne
 Version: 0.1
 Depends: mobilesubstrate, preferenceloader, vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Keep WiFi Always Connected.
 Maintainer: iOSSupport <iossp@hotmail.com>
 Section: Tweak
@@ -329,10 +329,10 @@ Maintainer: iOSSupport <iossp@hotmail.com>
 Author: BishopFox
 Section: Tweak
 Depends: mobilesubstrate, com.opa334.altlist, firmware (>=11.0), vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 1.3.5
 Icon: file:///Library/IconRepos/Tweak.png
-Filename: ./debs/vn.iossp.bfdecrypt_1.3.5_iphoneos-arm64.deb
+Filename: ./debs/vn.iossp.bfdecrypt_1.3.5_all.deb
 Size: 122682
 MD5sum: 62f4882d73b710376bfcdae4fe02c6a1
 SHA1: 5a5e801251538d4ab0573c6a0bfbc0c916a1bc48
@@ -345,7 +345,7 @@ Description: Kích mấy thằng xài wifi chùa của bạn¸
 Author: Teggers
 Depends: ru.rejail.arp-scan, ru.rejail.dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils, vn.iossp.iconrepo
 Section: Tweak
-Architecture: iphoneos-arm64
+Architecture: all
 Maintainer: iOSSupport <iossp@hotmail.com>
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.netkillui_0.2.1-1_iphoneos-arm.deb
@@ -361,7 +361,7 @@ Description: ARP scanning and fingerprinting tool. Arp-scan is a command-line to
 Author: Roy Hills <Roy.Hills@nta-monitor.com>
 Depends: ru.rejail.libpcap
 Section: Utilities
-Architecture: iphoneos-arm64
+Architecture: all
 Maintainer: ReJail <rejail@rejail.ru>
 Icon: file:///Library/IconRepos/Utilities.png
 Filename: ./debs/ru.rejail.arp-scan_1.8.1-1.deb
@@ -378,7 +378,7 @@ Author: Dug Song <dugsong@monkey.org>
 Conflicts: org.mulliner.dsniff
 Replaces: org.mulliner.dsniff
 Section: Utilities
-Architecture: iphoneos-arm64
+Architecture: all
 Maintainer: ReJail <rejail@rejail.ru>
 Icon: file:///Library/IconRepos/Utilities.png
 Filename: ./debs/ru.rejail.dsniff_2.4b2-1.deb
@@ -394,7 +394,7 @@ Description: Libpcap, a portable C/C++ library for network traffic capture.
 Author: libpcap <repo@hackyouriphone.org>
 Depends: mobilesubstrate
 Section: Utilities
-Architecture: iphoneos-arm64
+Architecture: all
 Maintainer: ReJail <rejail@rejail.ru>
 Icon: file:///Library/IconRepos/Utilities.png
 Filename: ./debs/ru.rejail.libpcap_1.4.0.deb
@@ -410,7 +410,7 @@ Depends: mobilesubstrate, vn.iossp.iconrepo
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: Snoolie K
 Section: Tweak
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 1.4
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.letmepass_1.4_iphoneos-arm.deb
@@ -425,7 +425,7 @@ Author: zachary7829
 Description: No Ads in YouTube.
 Depends: mobilesubstrate, vn.iossp.iconrepo
 Maintainer: iOSSupport <iossp@hotmail.com>
-Architecture: iphoneos-arm64
+Architecture: all
 Section: Tweak
 Version: 1.0.0-1+debug
 Icon: file:///Library/IconRepos/Tweak.png
@@ -442,7 +442,7 @@ Maintainer: iOSSupport <iossp@hotmail.com>
 Author: bag.xml, Requis
 Section: Tweak
 Depends: mobilesubstrate, preferenceloader, vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 1.2-Beta-1
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.tuberepair_1.2-Beta-1_iphoneos-arm.deb
@@ -455,7 +455,7 @@ Package: com.hackyouriphone.classiclockscreen
 Name: ClassicLockScreen
 Version: 3.3.1k
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), curl, firmware(<< 8.0) | org.coolstar.libclassictelephonyui (>= 1.1-1)
-Architecture: iphoneos-arm64
+Architecture: all
 Author: CoolStar, Jeremy Goulet, Phillip Tennen <repo@hackyouriphone.org>
 Section: HYI - Tweaks
 Description: Hate the iOS 7 Lock Screen?
@@ -471,7 +471,7 @@ Package: vn.iossp.cacheclearer11
 Name: CacheClearer
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), vn.iossp.iconrepo
 Conflicts: com.rpetrich.cacheclearer
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Clear app caches from the Usage section in Settings
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: Ryan Petrich, julioverne
@@ -492,7 +492,7 @@ Section: System
 Depends: firmware (>= 7.0), mobilesubstrate, vn.iossp.iconrepo
 Conflicts: it.marcocristalli.asupdatehider
 Priority: optional
-Architecture: iphoneos-arm64
+Architecture: all
 Author: UnlimApps Inc.
 Maintainer: iOSSupport <iossp@hotmail.com>
 Icon: file:///Library/IconRepos/System.png
@@ -505,7 +505,7 @@ SHA256: 0b519b3d5c3f965e486529a0e96bfe3536d227aa25ed0f44f6630f077d1fa23d
 Package: vn.iossp.ncsettings
 Name: NCSettings
 Version: 1.7.1
-Architecture: iphoneos-arm64
+Architecture: all
 Author: JamieD360 <jamied360support@live.co.uk>
 Depends: firmware (>= 5.0), mobilesubstrate, vn.iossp.weeloader, preferenceloader, vn.iossp.iconrepo
 Priority: extra
@@ -526,7 +526,7 @@ Maintainer: iOSSupport <iossp@hotmail.com>
 Author: Requis, Bag.xml
 Section: System
 Depends: mobilesubstrate, firmware(<==7.9), vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 2.5
 Icon: file:///Library/IconRepos/System.png
 Filename: ./debs/vn.iossp.itunesstorex_2.5_iphoneos-arm.deb
@@ -538,7 +538,7 @@ SHA256: e926168acfcd9ea7fdcc18c6d038151f36b313b76ecfd5086546bc436b838e5f
 Package: vn.iossp.iconfix
 Name: iFile/MTerminal icon fix
 Version: 4.0.1
-Architecture: iphoneos-arm64
+Architecture: all
 Depends: curl, vn.iossp.iconrepo
 Description: A shell script that fixes the iFile and MTerminal icons on iOS 6 and below.
 Maintainer: iOSSupport <iossp@hotmail.com>
@@ -554,7 +554,7 @@ SHA256: bf733aa34d5c4e5cd6ebbfb2a0afee4e5dd265f1b7f9b4d15032354206065b9c
 Package: vn.iossp.cydown
 Name: CyDown
 Version: 6.0.6
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Install paid packages for Free in Cydia!
 Author: julioverne
 Maintainer: iOSSupport <iossp@hotmail.com>
@@ -571,7 +571,7 @@ Package: vn.iossp.nativeqr
 Name: NativeQR
 Version: 1.0.0b2
 Depends: firmware (>= 6.0), mobilesubstrate, vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Author: Evan Swick <repo@hackyouriphone.org>
 Section: Tweak
 Description: QR code support in Camera & Contacts
@@ -586,7 +586,7 @@ SHA256: 19c3d50607e4d176dd2da24154add49affd1c3a8806507fa8d22530d740b41c8
 Package: vn.iossp.adowngrader
 Name: Adowngrader
 Depends: mobilesubstrate, vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Downgrade your apps. Well, at least try it.
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: H6nry <henry.anonym@gmail.com>
@@ -604,7 +604,7 @@ Version: 2.2.0-1
 Section: Application
 Maintainer: iOSSupport <iossp@hotmail.com>
 Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds, vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system.
 Name: iFile
 Author: Carsten Heinelt
@@ -618,7 +618,7 @@ SHA256: 891f8c2b58711bf5b7d3dd509b63a43758fe188dfbc2b4f651107b98fc543790
 Package: vn.iossp.kDFUApp
 Name: kDFUApp
 Version: 1.0.3
-Architecture: iphoneos-arm64
+Architecture: all
 Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, vn.iossp.kDFUBundles, firmware (>= 6.0), vn.iossp.iconrepo
 Priority: optional
 Description: easy way to get into kDFU mode.
@@ -635,7 +635,7 @@ SHA256: 3f7ca3e4b7501f46abb3f92bddac587167e3cab42ad9722d67411b593b64f0d9
 Package: vn.iossp.kDFUBundles
 Name: kDFUApp Bundles
 Version: 1.0.1
-Architecture: iphoneos-arm64
+Architecture: all
 Depends: vn.iossp.kDFUApp, vn.iossp.iconrepo
 Description: More device support for kDFUApp
 Author: LukeZGD
@@ -654,7 +654,7 @@ Version: 1.0
 Section: Utilities
 Depends: firmware (>= 6.0), libcrippy-1.0.0, vn.iossp.iconrepo
 Priority: optional
-Architecture: iphoneos-arm64
+Architecture: all
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Maintainer: iOSSupport <iossp@hotmail.com>
 Icon: file:///Library/IconRepos/Utilities.png
@@ -670,7 +670,7 @@ Version: 1.0
 Section: Utilities
 Depends: firmware (>= 6.0), vn.iossp.iconrepo
 Priority: optional
-Architecture: iphoneos-arm64
+Architecture: all
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Maintainer: iOSSupport <iossp@hotmail.com>
 Icon: file:///Library/IconRepos/Utilities.png
@@ -690,7 +690,7 @@ Description: Don't install if you don't know what that is
 	Do not install this package if you don't know what this is.
 	Installing this on a production device is not recommended.
 Priority: optional
-Architecture: iphoneos-arm64
+Architecture: all
 Author: winocm, xerub
 Maintainer: iOSSupport <iossp@hotmail.com>
 Icon: file:///Library/IconRepos/Utilities.png
@@ -707,7 +707,7 @@ Maintainer: iOSSupport <iossp@hotmail.com>
 Pre-Depends: firmware (>= 6.0)
 Depends: vn.iossp.iconrepo, mobilesubstrate, preferenceloader, co.cocoanuts.gremlin (>= 3.0), co.cocoanuts.gremlin.activities
 Conflicts: org.thebigboss.protube2, vn.gsm.protube2, vn.gsm.yourtube
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Best YouTube downloader on iOS6. Period
 Name: YourTube 6
 Author: CocoaNuts <repo@cydia.vn>
@@ -721,7 +721,7 @@ SHA256: 0fc699b0d840c91faf6ed7ac09577fce57a140991e58ae6efd308ea7acfdcd10
 Package: vn.iossp.legacyappstore
 Name: Legacy AppStore
 Depends: mobilesubstrate, firmware (>= 2.0), vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Description: a tweak from invoxiplaygames.
 Maintainer: iOSSupport <iossp@hotmail.com>
 Author: Invoxi
@@ -741,7 +741,7 @@ Maintainer: nekokawa
 Author: nekokawa
 Section: Tweak
 Depends: mobilesubstrate, firmware (>= 6.0), firmware (<= 7.1.2), preferenceloader, vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 0.3.3-1+debug
 Installed-Size: 124
 Icon: file:///Library/IconRepos/Tweak.png
@@ -758,7 +758,7 @@ Package: vn.iossp.appstorefix
 Depends: net.nekokawa.appstorefix ,vn.iossp.legacyappstore ,com.innoying.sbutils ,vn.iossp.iconrepo
 Section: System
 Version: 1.0-7
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Special thanks to Aoiblog, Invoxiplaygames and Nekokawa for these awesome tweak! Sincerely, iOSSupportVN.
 Icon: file:///Library/IconRepos/System.png
 Filename: ./debs/vn.iossp.appstorefix.deb
@@ -774,7 +774,7 @@ Maintainer: iOSSupportVN
 Author: Victor
 Section: Tweak
 Depends: mobilesubstrate, vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 1.0.2
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.googlefix.deb
@@ -788,7 +788,7 @@ Version: 1.4.1k
 Section: Tweak
 Maintainer: iOSSupportVN <iossp@hotmail.com>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Bring back iOS 6 folders to iOS 7/8/9!
 Name: ClassicFolders
 Author: CoolStar & Jeremy Goulet
@@ -806,7 +806,7 @@ Maintainer: iOSSupport <iossp@hotmail.com>
 Author: Jyvee
 Section: System
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 0.2.5-5+debug
 Icon: file:///Library/IconRepos/System.png
 Filename: ./debs/vn.iossp.itunesstorex7_0.2.5-5+debug_iphoneos-arm.deb
@@ -823,7 +823,7 @@ Pre-Depends: firmware (>= 5.0)
 Depends: mobilesubstrate, vn.iossp.iconrepo
 Section: Utilities
 Version: 1.2-1
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Weeeeeeeeeee! Load Wee apps safely.
 Icon: file:///Library/IconRepos/Utilities.png
 Filename: ./debs/vn.iossp.weeloader_1.2-1_iphoneos-arm.deb
@@ -835,7 +835,7 @@ SHA256: c4a54a2e35690c88e2db02b7c61bbc90cff2d996895021a54daf5360e963f3d4
 Package: vn.iossp.Discord
 Name: Discord Classic
 Version: 0.8.5
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Discord client for iOS 5 & 6 by Trevir
 Maintainer: iOSSupport<iossp@hotmail.com>
 Author: Trevir <triveri@outlook.com>
@@ -855,7 +855,7 @@ Maintainer: iOSSupport <iossp@hotmail.com>
 Author: fem67
 Section: Tweak
 Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 0.0.1-1+debug
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.legacyui_0.0.1-1+debug_iphoneos-arm.deb
@@ -871,7 +871,7 @@ Maintainer: iOSSupport <iossp@hotmail.com>
 Author: nekokawa
 Section: Tweak
 Depends: mobilesubstrate (>= 0.9.5000), firmware (<= 5.1.1), vn.iossp.iconrepo
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 0.0.4-1+debug
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.storeloginfix_0.0.4-1+debug_iphoneos-arm.deb
@@ -888,7 +888,7 @@ Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 
 Conflicts: com.plipala.ccsettings
 Section: Tweak
 Version: 0.0.7-8
-Architecture: iphoneos-arm64
+Architecture: all
 Description: More toggles for iOS 8/9 ControlCenter
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.ccsettings8_0.0.7-8_iphoneos-arm.deb
@@ -905,7 +905,7 @@ Author: Preloading <me@preloading.dev>
 Section: Tweak
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0), vn.iossp.iconrepo
 Conflicts: bag.xml.tuberepair
-Architecture: iphoneos-arm64
+Architecture: all
 Version: 1.0.3
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.tubereplacer_1.0.3_iphoneos-arm.deb
@@ -918,7 +918,7 @@ Homepage: http://ultrasn0w.com/
 Package: ultrasn0w
 Name: ultrasn0w
 Version: 1.2.8
-Architecture: iphoneos-arm64
+Architecture: all
 Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
 Maintainer: Dev Team <blog@iphone-dev.org>
 Author: Dev Team <blog@iphone-dev.org>
@@ -935,7 +935,7 @@ SHA256: abdf8a1e4ffa9321b72ab19a3759d2aa429d9830d662dc4344d0e771fe2b5e73
 Package: vn.iossp.ytlegacybg
 Name: YTLegacyBG
 Version: 1.0
-Architecture: iphoneos-arm64
+Architecture: all
 Description: Background playing for YouTube app on iOS 5 - 9.
 Maintainer: iOSSupportVN <iossp@hotmail.com>
 Author: iOSSupportVN
@@ -951,7 +951,7 @@ SHA256: 9f4b152dcea66c9a888d9a13bd1a9c232bf2b03da49dc7f368e641c8acd518de
 Package: vn.iossp.screensaverip4s
 Name: ScreenSaver iP4s
 Version: 1.0
-Architecture: iphoneos-arm64
+Architecture: all
 Description: DemoApp on iPhone 4S, Y not?
 Maintainer: iOSSupportVN <iossp@hotmail.com>
 Author: iOSSupportVN <iossp@hotmail.com>
