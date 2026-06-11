@@ -826,10 +826,10 @@ Section: Tweak
 Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.ytlegacybg_1.1_iphoneos-arm.deb
-Size: 11748
-MD5sum: 346da5d564cb2469e04f921727010b9c
-SHA1: fcdc3e86f8dbc87793db1404518784ce58a02133
-SHA256: a14a2f2e66b1db24715f028033f89f9c62cbff1229fcf57fe066519589240d77
+Size: 11772
+MD5sum: c8f5b19b69bcc9f65e3221ad06c05d73
+SHA1: 5551a97948705f86fc918cf2da98ac477e88e7ac
+SHA256: 69280e47f2654b267c6444a60bf52752f8222b8f4ff0bb6d2f84e9534272b591
 
 Package: vn.iossp.screensaverip4s
 Name: ScreenSaver iP4s
