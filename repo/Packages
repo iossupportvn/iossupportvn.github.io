@@ -846,3 +846,22 @@ Size: 47244322
 MD5sum: 03cc3c24fe81f8e9e4a350aa6465c4fe
 SHA1: 400d207fb1f893245608905973f637150e13904e
 SHA256: 8375a34436e6326071acaddd62372c3be96956729da007b0f6e3d7a47c0d7224
+
+Package: xz
+Priority: important
+Section: Utilities
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Architecture: iphoneos-arm
+Version: 5.2.4-1
+Depends: lzma (=4.32.7-5), vn.iossp.iconrepo
+Conflicts: xz-utils
+Provides: xz-utils
+Description: slower, but better, compression algorithm
+Name: XZ Utils
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/xz_5.2.4-1_iphoneos-arm.deb
+Size: 152646
+MD5sum: 3069ffa85194f92f7f7024f7c3ee9b5b
+SHA1: aa974cb7054375f3ae7b520cdd1a7aec5da9120c
+SHA256: c02b911533a0b645a74ab4a5356e06c5479bc3faa9d092f85c5ad5454007da17
+
