@@ -764,23 +764,6 @@ MD5sum: 5f087745c85c4c6101f52fd4970a662f
 SHA1: 1b89293a03f97e6df45a25b269dd773dcaa8b653
 SHA256: 257dc4c5c54494f7efc78afdcb2968856a7b35a16b620266de43e07dc0bf1e4a
 
-Package: vn.iossp.tubereplacer
-Name: TubeReplacer
-Description: A fix for YouTube with sign-in.
-Maintainer: iOSSupprotVN <iossp@hotmail.com>
-Author: Preloading <me@preloading.dev>
-Section: Tweak
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0), vn.iossp.iconrepo
-Conflicts: bag.xml.tuberepair
-Architecture: iphoneos-arm
-Version: 1.0.3
-Icon: file:///Library/IconRepos/Tweak.png
-Filename: ./debs/vn.iossp.tubereplacer_1.0.3_iphoneos-arm.deb
-Size: 320228
-MD5sum: 09422c7d9f2f18b521f592cfa3506bc9
-SHA1: 399e755cb5956c446b2987b263c7ceb012b24e65
-SHA256: e4a304350715ca6c8dcd5b42cbf9ee465d5c8def78c801b976f9335756193e8e
-
 Homepage: http://ultrasn0w.com/
 Package: ultrasn0w
 Name: ultrasn0w
@@ -880,3 +863,23 @@ Size: 1154582
 MD5sum: bf4d65b929260aa142b275d169543698
 SHA1: 7c31128e0698a7e91080f2d4d50942978d591289
 SHA256: e00acfe03a856ed9c663cfaed055bc83a619f616632ab07fbb2f9925eb6a268d
+
+Package: dev.preloading.tubereplacer
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Preloading <me@preloading.dev>
+Installed-Size: 956
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
+Conflicts: bag.xml.tuberepair
+Filename: ./debs/dev.preloading.tubereplacer_1.0.2_iphoneos-arm.deb
+Size: 232768
+MD5sum: dd8b6e8f0298a2da7fec6bdc0f154412
+SHA1: 79962d8651600a662a61ff568c60aff09710d171
+SHA256: ff7a76aaa6dd2b92e5f7fee85a0eaf4a73b60ba5ba606acebae6892842cbc5be
+Section: Tweaks
+Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Description: A fix for YouTube with sign-in.
+Author: Preloading <me@preloading.dev>
+Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
+Name: TubeReplacer
