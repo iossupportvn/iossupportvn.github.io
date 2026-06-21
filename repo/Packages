@@ -864,22 +864,21 @@ MD5sum: bf4d65b929260aa142b275d169543698
 SHA1: 7c31128e0698a7e91080f2d4d50942978d591289
 SHA256: e00acfe03a856ed9c663cfaed055bc83a619f616632ab07fbb2f9925eb6a268d
 
-Package: dev.preloading.tubereplacer
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Preloading <me@preloading.dev>
-Installed-Size: 956
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
-Conflicts: bag.xml.tuberepair
-Filename: ./debs/dev.preloading.tubereplacer_1.0.2_iphoneos-arm.deb
-Size: 232768
-MD5sum: dd8b6e8f0298a2da7fec6bdc0f154412
-SHA1: 79962d8651600a662a61ff568c60aff09710d171
-SHA256: ff7a76aaa6dd2b92e5f7fee85a0eaf4a73b60ba5ba606acebae6892842cbc5be
-Section: Tweaks
-Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
-Description: A fix for YouTube with sign-in.
-Author: Preloading <me@preloading.dev>
-Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
-Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
+Package: vn.iossp.tubereplacer
 Name: TubeReplacer
+Description: A fix for YouTube with sign-in.
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: Preloading <me@preloading.dev>
+Section: Tweak
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0), vn.iossp.ytlegacybg, vn.iossp.iconrepo
+Conflicts: bag.xml.tuberepair
+Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
+Architecture: iphoneos-arm
+Version: 1.0.1
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.tubereplacer_1.0.1_iphoneos-arm.deb
+Size: 308948
+MD5sum: 345e9ae041b55ed81b7c10f79c56cacc
+SHA1: e1a74046d49ec85f68c0d8992c3a1a1679a5860f
+SHA256: c3a01008f7a4e15c39d2a63766018213d4bae1cac5354dec8f530676b60c4c23
