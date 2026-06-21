@@ -865,3 +865,18 @@ MD5sum: 3069ffa85194f92f7f7024f7c3ee9b5b
 SHA1: aa974cb7054375f3ae7b520cdd1a7aec5da9120c
 SHA256: c02b911533a0b645a74ab4a5356e06c5479bc3faa9d092f85c5ad5454007da17
 
+Package: vn.iossp.screensaverip5
+Name: ScreenSaver iP5
+Version: 1.0
+Architecture: iphoneos-arm
+Description: DemoApp on iPhone 5, Y not?
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: iOSSupportVN <iossp@hotmail.com>
+Section: Application
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), firmware (<< 11.0), vn.iossp.iconrepo
+Icon: file:///Library/IconRepos/Application.png
+Filename: ./debs/vn.iossp.screensaverip5_1.0_iphoneos-arm.deb
+Size: 1154582
+MD5sum: bf4d65b929260aa142b275d169543698
+SHA1: 7c31128e0698a7e91080f2d4d50942978d591289
+SHA256: e00acfe03a856ed9c663cfaed055bc83a619f616632ab07fbb2f9925eb6a268d
