@@ -882,3 +882,19 @@ Size: 308948
 MD5sum: 345e9ae041b55ed81b7c10f79c56cacc
 SHA1: e1a74046d49ec85f68c0d8992c3a1a1679a5860f
 SHA256: c3a01008f7a4e15c39d2a63766018213d4bae1cac5354dec8f530676b60c4c23
+
+Package: vn.iossp.legacyalertreborn
+Name: LegacyAlert Reborn
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Glossy alert styling for UIAlert/Notification, works safely on iOS 7 through 10.
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: iOSSupportVN <iossp@hotmail.com>
+Section: Tweak
+Depends: mobilesubstrate, firmware (>= 7.0), vn.iossp.iconrepo
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.legacyalertreborn_1.0_iphoneos-arm.deb
+Size: 9386
+MD5sum: 71b79127cf35da40ef65d57dd079293e
+SHA1: c58977421637e49de7d7795755936cec4e9b24db
+SHA256: f36b4f476fa422cb696cc5b4626ebc3cbee0c1f04cf68ea1c42778f6b6cad4aa
