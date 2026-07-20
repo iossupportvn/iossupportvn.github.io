@@ -814,6 +814,22 @@ MD5sum: c8f5b19b69bcc9f65e3221ad06c05d73
 SHA1: 5551a97948705f86fc918cf2da98ac477e88e7ac
 SHA256: 69280e47f2654b267c6444a60bf52752f8222b8f4ff0bb6d2f84e9534272b591
 
+Package: vn.iossp.ytlegacybg
+Name: YTLegacyBG
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Background playing for YouTube app on iOS 5 - 9.
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: iOSSupportVN <iossp@hotmail.com>
+Section: Tweak
+Depends: Depends: mobilesubstrate | libhooker | substitute, vn.iossp.iconrepo
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.ytlegacybg_1.2_all.deb
+Size: 17516
+MD5sum: 60e4ce21afcbc3b462a7a4e1c198715b
+SHA1: 3ea1a8083d06fd525c534c59223284b23acf69b7
+SHA256: 5826c592b9aebb9b6f1da9a022737304c94e941daabd766631083444c11ce51a
+
 Package: vn.iossp.screensaverip4s
 Name: ScreenSaver iP4s
 Version: 1.0
