@@ -824,11 +824,11 @@ Author: iOSSupportVN <iossp@hotmail.com>
 Section: Tweak
 Depends: Depends: vn.iossp.iconrepo, mobilesubstrate | libhooker | substitute
 Icon: file:///Library/IconRepos/Tweak.png
-Filename: ./debs/vn.iossp.ytlegacybg_1.2_all.deb
-Size: 17642
-MD5sum: 2b5bfacdd66471f54e0e1524b5a1c62d
-SHA1: cd81067efdbc0a35f528247d4baf4294935ea711
-SHA256: 59f54f81dd8f566c84f7b5acf35c7f885b77423f5a8f28ead0e0b4131d217677
+Filename: ./debs/vn.iossp.ytlegacybg_1.2_iphoneos-arm.deb
+Size: 17630
+MD5sum: 17f9273fe7447b46b36438bc18ae17d0
+SHA1: 7b157893d9aea33b1f8416898648e240cc35de7a
+SHA256: 3a855a177df4d323e99f973c21e4c3eebd933120d165e6eb9d4d0d6fa496cab5
 
 Package: vn.iossp.screensaverip4s
 Name: ScreenSaver iP4s
