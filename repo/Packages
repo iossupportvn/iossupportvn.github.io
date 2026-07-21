@@ -822,13 +822,13 @@ Description: Background playing for YouTube app on iOS 5 - 9.
 Maintainer: iOSSupportVN <iossp@hotmail.com>
 Author: iOSSupportVN <iossp@hotmail.com>
 Section: Tweak
-Depends: Depends: vn.iossp.iconrepo, mobilesubstrate | libhooker | substitute
+Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.ytlegacybg_1.2_iphoneos-arm.deb
-Size: 17630
-MD5sum: 17f9273fe7447b46b36438bc18ae17d0
-SHA1: 7b157893d9aea33b1f8416898648e240cc35de7a
-SHA256: 3a855a177df4d323e99f973c21e4c3eebd933120d165e6eb9d4d0d6fa496cab5
+Size: 17612
+MD5sum: 68705df11df3b4935e2cddce16d23b19
+SHA1: 37cf51420868a726397ab29f17ea28882ad3bb36
+SHA256: 656e5ab98f180732b7fbca5e42f8c730e5cbaa8a8035f4d61f1810de020dd2a9
 
 Package: vn.iossp.screensaverip4s
 Name: ScreenSaver iP4s
