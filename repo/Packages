@@ -914,3 +914,19 @@ Size: 9386
 MD5sum: 71b79127cf35da40ef65d57dd079293e
 SHA1: c58977421637e49de7d7795755936cec4e9b24db
 SHA256: f36b4f476fa422cb696cc5b4626ebc3cbee0c1f04cf68ea1c42778f6b6cad4aa
+
+Package: vn.iossp.legacywififix
+Name: Legacy WiFi Fix
+Description: Fixes the RSN IE AKM-selection bug on iOS 3.x-12.x: strips AKM suites outside the range the OS supports (1..2 on iOS 3-5, 1..4 on iOS 6-7, 1..6 on iOS 8+) from IE_KEY_RSN_AUTHSELS so the AKM selector picks a supported AKM instead of being poisoned by a later unknown one (e.g. SAE=8). Restores association with WPA2/WPA3 transitional networks.
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: PlayDay
+Section: Tweak
+Depends: mobilesubstrate (>= 0.9.3367), vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Version: 0.2.1
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.legacywififix_0.2.1_iphoneos-arm.deb
+Size: 15230
+MD5sum: 4c8aa1b3f4b9df8ccd9324d2da31409a
+SHA1: c181fc2d796863a45ba71f997bfc90abc70ec65f
+SHA256: 6c042b9e86c87c86a765128b619394cc5b514ee3a67f0e48b6e27a18ea72d64d
