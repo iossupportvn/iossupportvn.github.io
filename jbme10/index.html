@@ -17,10 +17,33 @@ window.onerror = function(ev)
 </script>
 <script src="js/all.js"></script>
 <script src="js/pwn.js"></script>
+<script>
+  function updateVNTime() {
+    var clockElement = document.getElementById("clock");
+    if (!clockElement) return;
+
+    // Lấy thời gian hiện tại theo múi giờ Việt Nam (Asia/Ho_Chi_Minh)
+    var now = new Date();
+    var vnTimeString = now.toLocaleTimeString("en-US", {
+      timeZone: "Asia/Ho_Chi_Minh",
+      hour12: false,
+      hour: "2-digit",
+      minute: "2-digit"
+    });
+
+    clockElement.textContent = vnTimeString;
+  }
+
+  // Cập nhật ngay khi tải trang
+  updateVNTime();
+
+  // Cập nhật lại mỗi 1 giây (1000ms)
+  setInterval(updateVNTime, 1000);
+</script>
 <body class="crazycolors">
     <header class="block">
-        <div class="time">10<span class="colon"></span>04</div>
-        <div class="date">Reckoning Day</div>
+        <h1><div id="clock"></div></h1>
+        <div id="subtitle">IOSSUPPORTVN</div>
     </header>
     <div id="main">
         <img id="logo" src="img/amazing.png" alt="logo">
@@ -32,7 +55,7 @@ window.onerror = function(ev)
                 <img class="arrow" src="img/arrow.svg" alt="arrow">
             </div>
             <div id="hint">
-                <span>slide for spyware</span>
+                <span>slide to jailbreak</span>
             </div>
         </div>
     </div>
