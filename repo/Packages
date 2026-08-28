@@ -759,10 +759,10 @@ Architecture: iphoneos-arm
 Description: More toggles for iOS 8/9 ControlCenter
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.ccsettings8_0.0.7-8_iphoneos-arm.deb
-Size: 1100472
-MD5sum: 5f087745c85c4c6101f52fd4970a662f
-SHA1: 1b89293a03f97e6df45a25b269dd773dcaa8b653
-SHA256: 257dc4c5c54494f7efc78afdcb2968856a7b35a16b620266de43e07dc0bf1e4a
+Size: 1100496
+MD5sum: d64347805cbf62e12c80ef3859859516
+SHA1: 5d00b6e20dcbad3f35cf1e6324b7aa46003e75fa
+SHA256: e6a4cd8ecbe62ecbfb6ff899c4ec3f1ee29ba062433fd720f8a469e79535df05
 
 Homepage: http://ultrasn0w.com/
 Package: ultrasn0w
