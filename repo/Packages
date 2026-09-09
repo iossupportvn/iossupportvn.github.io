@@ -886,18 +886,16 @@ Description: A fix for YouTube with sign-in.
 Maintainer: iOSSupportVN <iossp@hotmail.com>
 Author: Preloading <me@preloading.dev>
 Section: Tweak
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0), vn.iossp.ytlegacybg, vn.iossp.iconrepo
+Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo, preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
 Conflicts: bag.xml.tuberepair
-Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
-Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
 Architecture: iphoneos-arm
-Version: 1.0.1
+Version: 1.0.6
 Icon: file:///Library/IconRepos/Tweak.png
-Filename: ./debs/vn.iossp.tubereplacer_1.0.1_iphoneos-arm.deb
-Size: 308948
-MD5sum: 345e9ae041b55ed81b7c10f79c56cacc
-SHA1: e1a74046d49ec85f68c0d8992c3a1a1679a5860f
-SHA256: c3a01008f7a4e15c39d2a63766018213d4bae1cac5354dec8f530676b60c4c23
+Filename: ./debs/vn.iossp.tubereplacer_1.0.6_iphoneos-arm.deb
+Size: 327934
+MD5sum: c70d2199ba382bd1301e8715edd30838
+SHA1: 61ce71b8955d1cd56017e77e123c18487e309898
+SHA256: a0f671a11db7318fbcff567f60902784180094117963f9e4396fb6e1ba7636ac
 
 Package: vn.iossp.legacyalertreborn
 Name: LegacyAlert Reborn
