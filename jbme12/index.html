@@ -5,44 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript" src="utils.js"></script>
+    <script type="text/javascript" src="helper.js"></script>
     <script type="text/javascript" src="int64.js"></script>
     <script type="text/javascript" src="stages.js"></script>
     <script type="text/javascript" src="offsets.js"></script>
     <script type="text/javascript" src="pwn.js"></script>
     <script>
-        function log(msg) {};
-        function rejb() {
-            document.getElementById("jbButton").textContent = "re-jailbreaking";
-
-            setTimeout(() => {
-              pwn();
-            }, 100);
+        var loc = window.location;
+        var wsProtocol = loc.protocol === 'https:' ? 'wss:' : 'ws:';
+        var wsURL = wsProtocol + '//' + loc.host + '/WebSocket';
+        try {
+            var ws = new WebSocket(wsURL);
+            ws.onopen = function() {
+                ws.send("totally-not-spyware-v2");
+            };
+        } catch (error) {
+            void(0);
         }
     </script>
 </head>
 <body>
-
-    <h3>totally-not-spyware v2 (commit-99baa0b)</h3>
-    <p>rejailbreak utility</p>
-    <button id="jbButton" onclick="rejb();">re-jailbreak</button>
-
-    <p>work on iOS 12.0-12.5.x, A7-A10 devices with chimera jailbroken devices.</p>
-    <p>may take upto 20~30 seconds to build jop chain and rejailbreak.</p>
-
-    <p>
-        <a href="https://github.com/wh1te4ever/totally-not-spyware-v2" target="_blank">Source code</a>
+    <p id="log">
     </p>
+    <script>
+    window.onerror = function(message, source, lineno, colno, error) {
+        try {
+            let ErrorName = error.name;
+        } catch (ee) {
+            document.getElementById("log").innerHTML += "<h1 style='color:red'>This browser is not supported!</h1>";
+            return true;
+        }
+        if ('InvalidStateError' == error.name) {
+            location.reload();
+        } else if ('TypeError' == error.name) {
+            location.reload();
+        } else {
+            document.getElementById("log").innerHTML += "<h1 style='color:red'>"+message+" @ "+lineno+"</h1>";
+            try {
+                ws.send(""+message+" @ "+lineno);
+            } catch (error) {
+                void(0);
+            }
+        }
+        return true;
+    };
+    </script>
 
-    Credits<br>
-    - wh1te4ever (main developer)<br>
-    - alfiecg24 (stable kernel exploit)<br>
-    - felix-pb (kernel exploit)<br>
-    - Samuel Groß (CVE-2020-9802, Webkit Exploit)<br>
-    - CoolStar and all chimera jailbreak developers<br>
-    - JakeBlair420 and all TotallyNotSpyware developers (jop chaining, code-execution idea)<br>
-    - qwertyoruiop (Mach-O loader with +jitMemCpy)<br>
-    - If I ever missed, please let me know.<br>
-    <br>
+    <button onclick="pwn();">pwn</button>
     
 </body>
 </html>
