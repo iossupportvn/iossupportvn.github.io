@@ -887,7 +887,7 @@ Maintainer: iOSSupportVN <iossp@hotmail.com>
 Author: Preloading <me@preloading.dev>
 Section: Tweak
 Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo, preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
-Conflicts: bag.xml.tuberepair
+Conflicts: bag.xml.tuberepair, dev.preloading.tubereplacer
 Architecture: iphoneos-arm
 Version: 1.0.6
 Icon: file:///Library/IconRepos/Tweak.png
