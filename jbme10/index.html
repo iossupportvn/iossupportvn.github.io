@@ -41,7 +41,8 @@ window.onerror = function(ev)
   setInterval(updateVNTime, 1000);
 </script>
 <style>
-#alertbox{
+#alertboxbody{
+    margin:10px;color:#FFF;
     max-width:320px;
     background-image:-webkit-linear-gradient(top, #8c9cbf 0%, #546a9e 30%, #153153 30%, #091636 100%);
     border:2px solid #ededee;
@@ -50,10 +51,6 @@ window.onerror = function(ev)
     margin:2rem 0.5rem;
     text-align:-webkit-center;
     font:bold 17px/1.5 helvetica;
-
-}
-#alertboxbody{
-    margin:10px;color:#FFF;
 }
 </style>
 <body class="crazycolors">
@@ -61,7 +58,7 @@ window.onerror = function(ev)
         <div style="font-size: 4em;margin-bottom: 0;margin-top: 5px" id="clock"></div>
         <div id="subtitle">IOSSUPPORTVN</div><br>
     </header>
-    <div id="alertbox">
+    <div id="main">
         <div id="alertboxbody">LƯU Ý: Chỉ tương thích với các thiết bị chip Apple A7 - A10.</div>
         <div id="notice"></div>
     </div>
