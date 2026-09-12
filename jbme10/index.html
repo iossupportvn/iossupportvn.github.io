@@ -1,70 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" manifest="manifest.appcache">
 <title>&#8290;</title>
-<style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { 
-            background-color: #000000; 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        /* Khung chứa chính */
-        .alert-box {
-            background-image:-webkit-linear-gradient(top, #8c9cbf 0%, #546a9e 18%, #153153 18%, #091636 100%);
-            background-color: #0d1e38;
-            max-width: 420px;
-            border-radius: 16px;
-            border: 2px solid #ffffff;
-            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-            overflow: hidden;
-            text-align: center;
-            margin: 20px;
-        }
-
-        /* Thanh tiêu đề chuyển màu chuyển tiếp */
-        .header {
-            padding: 10px;
-        }
-
-        .header-title {
-            color: #fff;
-            font-size: 20px;
-            font-weight: 900;
-            display: inline-block;
-            padding: 2px 6px;
-            letter-spacing: 0.5px;
-        }
-
-        /* Phần nội dung chính */
-        .content {
-            padding-bottom: 10px;
-            color: #ffffff;
-        }
-
-        /* Danh sách thiết bị */
-        .device-list {
-            list-style: none;
-            padding: 0 10px;
-        }
-
-        .device-list li {
-            font-size: 12px;
-            font-weight: bold;
-            color: #ffffff;
-            padding: 8px 0;
-            border-bottom: 1px dashed #2a4365;
-            text-shadow: 1px 1px 2px #000;
-        }
-
-        .device-list li:last-child {
-            border-bottom: none;
-        }
-    </style>
 <meta charset="utf-8">
 <!-- UI Properties -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -104,33 +40,32 @@ window.onerror = function(ev)
   // Cập nhật lại mỗi 1 giây (1000ms)
   setInterval(updateVNTime, 1000);
 </script>
-<body style="background:url(https://cokepokes.github.io/images/pinstripes.png)!important">
-    <header class="block" style="width:100%">
+<style>
+#alertbox{
+    max-width:320px;
+    background-image:-webkit-linear-gradient(top, #8c9cbf 0%, #546a9e 30%, #153153 30%, #091636 100%);
+    border:2px solid #ededee;
+    border-radius:10px;
+    padding:5px;
+    margin:2rem 0.5rem;
+    text-align:-webkit-center;
+    font:bold 17px/1.5 helvetica;
+
+}
+#alertboxbody{
+    margin:10px;color:#FFF;
+}
+</style>
+<body class="crazycolors">
+    <header class="block">
         <div style="font-size: 4em;margin-bottom: 0;margin-top: 5px" id="clock"></div>
         <div id="subtitle">IOSSUPPORTVN</div><br>
     </header>
-    <div class="alert-box">
-    <!-- Thanh tiêu đề -->
-    <div class="header">
-        <div class="header-title">Danh sách thiết bị được hỗ trợ:</div>
+    <div id="alertbox">
+        <div id="alertboxbody">LƯU Ý: Chỉ tương thích với các thiết bị chip Apple A7 - A10.</div>
+        <div id="notice"></div>
     </div>
-    <!-- Nội dung chính -->
-    <div class="content">        
-        <ul class="device-list">
-            <li>iPhone 5s</li>
-            <li>iPhone SE (thế hệ thứ 1)</li>
-            <li>iPhone 6 & 6 Plus</li>
-            <li>iPhone 6s & 6s Plus</li>
-            <li>iPhone 7 & 7 Plus</li>
-            <li>iPad Air & iPad Air 2</li>
-            <li>iPad mini 2, mini 3 & mini 4</li>
-            <li>iPad (thế hệ thứ 5 / 2017)</li>
-            <li>iPad Pro 9.7-inch, 12.9-inch (gen 1 & 2), 10.5-inch</li>
-            <li>iPod touch (thế hệ thứ 6)</li>
-        </ul>
-    </div>
-</div>
-    <div id="slider" style="width:100%">
+    <div id="slider">
         <div id="well">
             <div id="thumbtack">
                 <img class="arrow" src="img/arrow.svg" alt="arrow">

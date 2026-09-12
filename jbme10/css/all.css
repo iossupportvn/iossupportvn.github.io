@@ -29,7 +29,7 @@ body {
 }
 
 body.crazycolors {
-    animation: bg-crazycolors .3s linear infinite
+    background:url(https://cokepokes.github.io/images/pinstripes.png)!important
 }
 
 body.wait {
@@ -71,12 +71,6 @@ span.colon::after {
     display: flex;
     justify-content: center;
     z-index: -1
-}
-
-#logo {
-    animation: tf-zoombob 2s linear infinite;
-    width: 65vmin;
-    height: 65vmin
 }
 
 #notice {
