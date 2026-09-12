@@ -244,8 +244,8 @@ function str2ab(a) {
         a.removeChild(a.firstChild);
     var d = document.createElement("div");
     d.className = "center";
-    d.appendChild(document.createElement("h1")).textContent = "IOSSUPPORTVN";
-    d.appendChild(document.createElement("h2")).textContent = "Thiết bị không nằm trong phạm vi iOS được hỗ trợ (10 - 10.3.3). Vui lòng không cố sử dụng trình JailBreak này!";
+    d.appendChild(document.createElement("h1")).textContent = "Hello from the NSA!";
+    d.appendChild(document.createElement("h2")).textContent = "Unfortunately this spyware is only compatible with iOS 10. You're not on that version, so don't try it. At all. It will break something. Seriously. Forget we said anything.";
     a.appendChild(d);
     a.className = "incompatible";
     window.ontouchmove = void 0;
