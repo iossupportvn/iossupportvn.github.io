@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache">
+<title>&#8290;</title>
+<meta charset="utf-8">
+<!-- UI Properties -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<!-- iOS App Properties -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="img/ios-icon.png">
+<script>
+window.onerror = function(ev)
+{
+    alert('Uncaught error: ' + ev);
+};
+</script>
+<script src="js/all.js"></script>
+<script src="js/pwn.js"></script>
+<script>
+  function updateVNTime() {
+    var clockElement = document.getElementById("clock");
+    if (!clockElement) return;
+
+    // Lấy thời gian hiện tại theo múi giờ Việt Nam (Asia/Ho_Chi_Minh)
+    var now = new Date();
+    var vnTimeString = now.toLocaleTimeString("en-US", {
+      timeZone: "Asia/Ho_Chi_Minh",
+      hour12: false,
+      hour: "2-digit",
+      minute: "2-digit"
+    });
+
+    clockElement.textContent = vnTimeString;
+  }
+
+  // Cập nhật ngay khi tải trang
+  updateVNTime();
+
+  // Cập nhật lại mỗi 1 giây (1000ms)
+  setInterval(updateVNTime, 1000);
+</script>
+<body class="crazycolors">
+    <header class="block">
+        <div style="font-size: 4em;margin-bottom: 0;margin-top: 5px" id="clock"></div>
+        <div id="subtitle">IOSSUPPORTVN</div><br>
+    </header>
+    <div id="main">
+        <img id="logo" src="img/amazing.png" alt="logo">
+        <div id="notice"></div>
+    </div>
+    <div id="slider">
+        <div id="well">
+            <div id="thumbtack">
+                <img class="arrow" src="img/arrow.svg" alt="arrow">
+            </div>
+            <div id="hint">
+                <span>slide to jailbreak</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

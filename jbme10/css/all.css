@@ -195,28 +195,6 @@ body.wait #notice {
     }
 }
 
-@keyframes bg-crazycolors {
-    0% {
-        background-color: #e91e63
-    }
-
-    25% {
-        background-color: #03a9f4
-    }
-
-    50% {
-        background-color: #4caf50
-    }
-
-    75% {
-        background-color: #673ab7
-    }
-
-    to {
-        background-color: #e91e63
-    }
-}
-
 @keyframes tf-fadein {
     0% {
         transform: translate(100vw);
@@ -260,7 +238,7 @@ body.incompatible {
     justify-content: center;
     align-items: center;
     font-family: Helvetica,sans-serif;
-    color: #95d0c6;
+    color: #777777;
     background-color: #0c3b3e
 }
 
