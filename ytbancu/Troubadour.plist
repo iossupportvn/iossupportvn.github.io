@@ -10,7 +10,6 @@
 				<dict>
 					<key>kind</key>
 					<string>software-package</string>
-					<!-- Thay link bên dưới bằng link .ipa trực tiếp từ GitHub Releases -->
 					<string>https://github.com/iossupportvn/iossupportvn.github.io/releases/download/Troubadour/Troubadour.ipa</string>
 				</dict>
 			</array>
