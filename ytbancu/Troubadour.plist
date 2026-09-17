@@ -10,6 +10,7 @@
 				<dict>
 					<key>kind</key>
 					<string>software-package</string>
+					<key>url</key>
 					<string>https://github.com/iossupportvn/iossupportvn.github.io/releases/download/Troubadour/Troubadour.ipa</string>
 				</dict>
 			</array>
