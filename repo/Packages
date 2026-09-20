@@ -650,6 +650,22 @@ MD5sum: 9541733290882a0a2a855862c4899fa9
 SHA1: c30aafa34e681ac765d054440a93c3154ec22017
 SHA256: e4f732afb2d5605485a9829fd68e6210a5a1bccb7051ffc639845d4b81163ce2
 
+Package: vn.iossp.appstorefix2
+Name: AppStoreFix 2
+Description: Special thanks to Aoiblog, Victor, Invoxiplaygames and Nekokawa for these awesome tweak! Sincerely, iOSSupportVN.
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: Victor <contact@victorlobe.me>
+Section: System
+Depends: mobilesubstrate (>= 0.9.5000) ,vn.iossp.legacyappstore ,com.innoying.sbutils ,vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Version: 0.beta
+Icon: file:///Library/IconRepos/System.png
+Filename: ./debs/vn.iossp.appstorefix2_0.beta_iphoneos-arm.deb
+Size: 11992
+MD5sum: 9e35325a6492652cda99b0fe2db9f01c
+SHA1: e23ae81ab111c17bb24890568a2898d76ebaf087
+SHA256: c30a0e99db88494d82197ca5c0e7c2ae53951250faaae836c20ebfe7b8b3a5d9
+
 Package: vn.iossp.googlefix
 Name: GoogleFix
 Description: Fixes Google search on iOS 6
