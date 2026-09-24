@@ -838,7 +838,7 @@ Description: Background playing for YouTube app on iOS 5 - 9.
 Maintainer: iOSSupportVN <iossp@hotmail.com>
 Author: iOSSupportVN <iossp@hotmail.com>
 Section: Tweak
-Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo, vn.iossp.tubereplacer
+Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.ytlegacybg_1.2_iphoneos-arm.deb
 Size: 31308
