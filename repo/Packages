@@ -896,3 +896,39 @@ Size: 1056004
 MD5sum: be40e2b43a6e6e9bf331190452f0e565
 SHA1: 438f7349fddbb45b799303bc22f7529bc76b74b1
 SHA256: 16c468d03082f3042de09d0e0209f09df7aef079242f6a1ef9fe45ef78ba2c84
+
+Package: vn.iossp.veterishelper
+Name: Veteris Helper
+Description: Veteris's little friend.
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: Victor
+Section: Utilities
+Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo
+Conflicts: com.ixmoe.1pwn.Veteris, moe.yzu.veterishelper
+Replaces: com.ixmoe.1pwn.Veteris, moe.yzu.veterishelper
+Architecture: iphoneos-arm
+Version: 1.1
+Icon: file:///Library/IconRepos/Utilities.png
+Filename: ./debs/vn.iossp.veterishelper_1.1_iphoneos-arm.deb
+Size: 9082
+MD5sum: 38a6e9139429c839b95247cb656f1c76
+SHA1: 476c55b5db7c3189b668e7aa5fee274b8a8d7609
+SHA256: c64b172e9a9bdae46acc9f7359413df2c08a45d075388247cab8573d02d9f385
+
+Package: vn.iossp.veteris5
+Name: Veteris5
+Depends: firmware (>= 5.0), vn.iossp.veterishelper, vn.iossp.iconrepo
+Conflicts: com.ixmoe.1pwn.veteris, moe.yzu.veterishelper
+Replaces: com.ixmoe.1pwn.veteris, moe.yzu.veterishelper
+Description: Alternative AppStore for iOS 5 - 10.
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: Victor
+Section: Application
+Architecture: iphoneos-arm
+Version: 3.2
+Icon: file:///Library/IconRepos/Application.png
+Filename: ./debs/vn.iossp.veteris5_3.2_iphoneos-arm.deb
+Size: 2612834
+MD5sum: d102a05f4cf305275da7daa32470cef1
+SHA1: b76df9ee9a18974190b76c104a9247718fcb6a73
+SHA256: af3abdab951ab7125a0fe4f5793fe22ab01b16dc70af62310900b4cccac09bc0
