@@ -848,23 +848,6 @@ MD5sum: bf4d65b929260aa142b275d169543698
 SHA1: 7c31128e0698a7e91080f2d4d50942978d591289
 SHA256: e00acfe03a856ed9c663cfaed055bc83a619f616632ab07fbb2f9925eb6a268d
 
-Package: vn.iossp.tubereplacer
-Name: TubeReplacer
-Description: A fix for YouTube with sign-in.
-Maintainer: iOSSupportVN <iossp@hotmail.com>
-Author: Preloading <me@preloading.dev>
-Section: Tweak
-Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo, preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
-Conflicts: bag.xml.tuberepair, dev.preloading.tubereplacer
-Architecture: iphoneos-arm
-Version: 1.0.6
-Icon: file:///Library/IconRepos/Tweak.png
-Filename: ./debs/vn.iossp.tubereplacer_1.0.6_iphoneos-arm.deb
-Size: 327934
-MD5sum: c70d2199ba382bd1301e8715edd30838
-SHA1: 61ce71b8955d1cd56017e77e123c18487e309898
-SHA256: a0f671a11db7318fbcff567f60902784180094117963f9e4396fb6e1ba7636ac
-
 Package: vn.iossp.legacyalertreborn
 Name: LegacyAlert Reborn
 Version: 1.0
@@ -913,3 +896,20 @@ Size: 13570
 MD5sum: f8e0040ab15fa545274a2e0ebf53e2c1
 SHA1: 25ee5dd21427eb0d19e757b08631d92aa97f90f9
 SHA256: d36f2bbf12df0c302dc5fd824ac0f938f1cd056c9cb417f70031056ee487616f
+
+Package: vn.iossp.tubereplacer
+Name: TubeReplacer
+Description: A fix for YouTube with sign-in.
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: Preloading <me@preloading.dev>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 12.0), vn.iossp.iconrepo
+Conflicts: bag.xml.tuberepair
+Architecture: iphoneos-arm
+Version: 2.0.0
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.tubereplacer_2.0.0_iphoneos-arm.deb
+Size: 1056004
+MD5sum: be40e2b43a6e6e9bf331190452f0e565
+SHA1: 438f7349fddbb45b799303bc22f7529bc76b74b1
+SHA256: 16c468d03082f3042de09d0e0209f09df7aef079242f6a1ef9fe45ef78ba2c84
