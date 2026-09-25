@@ -155,23 +155,6 @@ MD5sum: b5235a63340f531d869a5089d5589b94
 SHA1: 1f5f1009841677510c03ec174f87a32863ac4fd6
 SHA256: 33c7c8abbbca75f750ea9f66b7e0a50931d9abb1a36ced239c817e1841b6b710
 
-Package: vn.iossp.clutch146
-Name: Clutch 1.4.6
-Version: 1.4.6
-Section: Utilities
-Maintainer: iOSSupport <iossp@hotmail.com>
-Author: KJCracks
-Architecture: iphoneos-arm
-Pre-Depends: firmware (>= 4.0), org.coolstar.cctools
-Depends: com.ericasadun.utilities, zip, gawk, adv-cmds, bigbosshackertools, firmware (>= 4.0), vn.iossp.iconrepo
-Description: Decrypt  iPAs iOS 4 - 6.
-Icon: file:///Library/IconRepos/Utilities.png
-Filename: ./debs/vn.iossp.clutch146_1.4.6_iphoneos-arm.deb
-Size: 187624
-MD5sum: 2d74bc4c315de31fc0324032539c7396
-SHA1: 12bfaec7d7dad9847ffd4c58bd1d265eae193b2f
-SHA256: d167a74103bc7f7e4bfd0568da203c2b0a6706b87433827a988585fffa7476ef
-
 Package: vn.iossp.clutch204
 Name: Clutch 2.0.4
 Version: 2.0.4
