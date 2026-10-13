@@ -933,18 +933,18 @@ MD5sum: d102a05f4cf305275da7daa32470cef1
 SHA1: b76df9ee9a18974190b76c104a9247718fcb6a73
 SHA256: af3abdab951ab7125a0fe4f5793fe22ab01b16dc70af62310900b4cccac09bc0
 
-Author: iOSSupportVN <iossp@hotmail.com>
-Maintainer: iOSSupportVN <iossp@hotmail.com>
-Name: LegacyPack
 Package: vn.iossp.legacypack
-Section: Tweak
-Depends: mobilesubstrate, firmware (>= 5.0), vn.iossp.iconrepo, net.crazy.updateskiller, com.r333d.cylinder, openssh, com.saurik.afc2d, vn.iossp.veteris5, vn.iossp.legacywififix, vn.iossp.tubereplacer, vn.iossp.appsyncunified
+Name: LegacyPack
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Make iOS 6 usable!
+Description: Ultimate Packs for iOS 6!
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: iOSSupportVN <iossp@hotmail.com>
+Section: Tweak
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), vn.iossp.iconrepo, net.crazy.updateskiller, com.r333d.cylinder, openssh, com.saurik.afc2d, vn.iossp.veteris5, vn.iossp.legacywififix, vn.iossp.tubereplacer, vn.iossp.appsyncunified
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.legacypack_1.0_iphoneos-arm.deb
-Size: 2316
-MD5sum: 3d06f6a5860cfebe2b7b3f126f7fcdf7
-SHA1: 7cc173a7314a8403a8eb219e487450c79a645a68
-SHA256: ca0cc98869b0c085cf90528513d933156ffb0fa0efbff8b819d9c092f21aff26
+Size: 5440
+MD5sum: 4455d298771e0214b0ada68aa0adf72b
+SHA1: c177e18c3e07fe1eb9fb6467443986d81298a0e0
+SHA256: e1fd1f0560bfcfa750c486e503fef0e09634790f45c84639374d8a38177478db
