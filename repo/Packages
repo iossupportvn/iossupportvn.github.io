@@ -941,10 +941,10 @@ Description: Ultimate Packs for iOS 6!
 Maintainer: iOSSupportVN <iossp@hotmail.com>
 Author: iOSSupportVN <iossp@hotmail.com>
 Section: Tweak
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), vn.iossp.iconrepo, net.crazy.updateskiller, com.r333d.cylinder, openssh, com.saurik.afc2d, vn.iossp.veteris5, vn.iossp.legacywififix, vn.iossp.tubereplacer, vn.iossp.appsyncunified
+Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo, net.crazy.updateskiller, com.r333d.cylinder, openssh, com.saurik.afc2d, vn.iossp.veteris5, vn.iossp.legacywififix, vn.iossp.tubereplacer, vn.iossp.appsyncunified
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.legacypack_1.0_iphoneos-arm.deb
-Size: 5440
-MD5sum: 4455d298771e0214b0ada68aa0adf72b
-SHA1: c177e18c3e07fe1eb9fb6467443986d81298a0e0
-SHA256: e1fd1f0560bfcfa750c486e503fef0e09634790f45c84639374d8a38177478db
+Size: 5438
+MD5sum: 62784e3e0913bc627991c20b3ec51e51
+SHA1: 90f6999e5bc1c92c683ae508088a00cd827c8fc0
+SHA256: ff634a42d0d2a9e60fa0045b9deb83e0a0f61bf4ca601413d2c4a5958a4d0814
