@@ -280,7 +280,7 @@ Depends: mobilesubstrate, com.opa334.altlist, firmware (>=11.0), vn.iossp.iconre
 Architecture: iphoneos-arm
 Version: 1.3.5
 Icon: file:///Library/IconRepos/Tweak.png
-Filename: ./debs/vn.iossp.bfdecrypt_1.3.5_all.deb
+Filename: ./debs/vn.iossp.bfdecrypt_1.3.5_iphoneos-arm64.deb
 Size: 122682
 MD5sum: 62f4882d73b710376bfcdae4fe02c6a1
 SHA1: 5a5e801251538d4ab0573c6a0bfbc0c916a1bc48
