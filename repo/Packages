@@ -281,7 +281,7 @@ Architecture: iphoneos-arm
 Version: 1.3.5
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.bfdecrypt_1.3.5_iphoneos-arm64.deb
-Size: 122682
+Size: 122682	
 MD5sum: 62f4882d73b710376bfcdae4fe02c6a1
 SHA1: 5a5e801251538d4ab0573c6a0bfbc0c916a1bc48
 SHA256: 7b12a3b16f89ce44a83d539fc420ee810adb01f20c8b94b852ad88b3c4226d30
@@ -948,3 +948,19 @@ Size: 5438
 MD5sum: 62784e3e0913bc627991c20b3ec51e51
 SHA1: 90f6999e5bc1c92c683ae508088a00cd827c8fc0
 SHA256: ff634a42d0d2a9e60fa0045b9deb83e0a0f61bf4ca601413d2c4a5958a4d0814
+
+Package: vn.iossp.storeauthfix
+Name: StoreAuthFix
+Description: Fix login AppStore on iOS 8-10.
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Author: computershik
+Section: Tweak
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 14.0), preferenceloader, vn.iossp.iconrepo
+Architecture: iphoneos-arm
+Version: 1.4
+Icon: file:///Library/IconRepos/Tweak.png
+Filename: ./debs/vn.iossp.storeauthfix_1.4_iphoneos-arm.deb
+Size: 17904
+MD5sum: a559ee75bd062d2ae98af176f0ff3d70
+SHA1: ea6df00a1b1a898011ab7c7192a3253c235acc5c
+SHA256: d2a4a92af14d4d0a32bf1003dfd80c180ef33b173df1472c485e151759910f86
