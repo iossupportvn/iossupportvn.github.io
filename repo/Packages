@@ -885,17 +885,17 @@ Name: TubeReplacer
 Description: A fix for YouTube with sign-in.
 Maintainer: iOSSupportVN <iossp@hotmail.com>
 Author: Preloading <me@preloading.dev>
-Section: Tweaks
+Section: Tweak
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 12.0), vn.iossp.iconrepo
 Conflicts: bag.xml.tuberepair
 Architecture: iphoneos-arm
-Version: 2.0.0
+Version: 2.0.1
 Icon: file:///Library/IconRepos/Tweak.png
-Filename: ./debs/vn.iossp.tubereplacer_2.0.0_iphoneos-arm.deb
-Size: 1056004
-MD5sum: be40e2b43a6e6e9bf331190452f0e565
-SHA1: 438f7349fddbb45b799303bc22f7529bc76b74b1
-SHA256: 16c468d03082f3042de09d0e0209f09df7aef079242f6a1ef9fe45ef78ba2c84
+Filename: ./debs/vn.iossp.tubereplacer_2.0.1_iphoneos-arm.deb
+Size: 1056000
+MD5sum: 8d22667b6668bb161199d79caae79691
+SHA1: 8e6cdb0184cee6e72349d0a5fc6259adb4f17a60
+SHA256: 2873aa5b252af41b7681f047218c18d2e9745f4e6d3c7665d2ac50a4f663423d
 
 Package: vn.iossp.veterishelper
 Name: Veteris Helper
