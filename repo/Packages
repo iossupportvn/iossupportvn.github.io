@@ -935,7 +935,7 @@ SHA256: af3abdab951ab7125a0fe4f5793fe22ab01b16dc70af62310900b4cccac09bc0
 
 Package: vn.iossp.legacypack
 Name: LegacyPack
-Version: 2.0
+Version: 3.0
 Architecture: iphoneos-arm
 Description: Ultimate Packs for iOS 6!
 Maintainer: iOSSupportVN <iossp@hotmail.com>
@@ -943,11 +943,11 @@ Author: iOSSupportVN <iossp@hotmail.com>
 Section: Tweak
 Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo, net.crazy.updateskiller, com.r333d.cylinder, openssh, com.saurik.afc2d, vn.iossp.veteris5, vn.iossp.legacywififix, vn.iossp.tubereplacer, vn.iossp.appsyncunified
 Icon: file:///Library/IconRepos/Tweak.png
-Filename: ./debs/vn.iossp.legacypack_2.0_iphoneos-arm.deb
-Size: 5920
-MD5sum: 1be1dc2249c8f4b014f678bb7832cbb3
-SHA1: 9296539f3dbd21fbc4096653385f4c5a6cf2f681
-SHA256: 44f7e9ab678aa2f8828844c4e6fd0019a4663abe059b1a3f11b317410a73e96d
+Filename: ./debs/vn.iossp.legacypack_3.0_iphoneos-arm.deb
+Size: 2622
+MD5sum: 8d64e425c4cf6118be35604949bf0982
+SHA1: 170dbf9ff40aa35fa87c031aac2d9dc6aab02321
+SHA256: 9d71073fbbd29dbfb4e26fd5f6a0f797627796eaafbb512d018d3cd1f48a8542
 
 Package: vn.iossp.storeauthfix
 Name: StoreAuthFix
