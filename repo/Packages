@@ -941,13 +941,13 @@ Description: Ultimate Packs for iOS 6!
 Maintainer: iOSSupportVN <iossp@hotmail.com>
 Author: iOSSupportVN <iossp@hotmail.com>
 Section: Tweak
-Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo, net.crazy.updateskiller, com.r333d.cylinder, openssh, com.saurik.afc2d, vn.iossp.veteris5, vn.iossp.legacywififix, vn.iossp.tubereplacer, vn.iossp.appsyncunified
+Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo, net.crazy.updateskiller, com.r333d.cylinder, openssh, com.saurik.afc2d, vn.iossp.veteris5, vn.iossp.legacywififix, vn.iossp.tubereplacer, vn.iossp.appsyncunified, xz
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.legacypack_3.0_iphoneos-arm.deb
-Size: 2622
-MD5sum: 8d64e425c4cf6118be35604949bf0982
-SHA1: 170dbf9ff40aa35fa87c031aac2d9dc6aab02321
-SHA256: 9d71073fbbd29dbfb4e26fd5f6a0f797627796eaafbb512d018d3cd1f48a8542
+Size: 2644
+MD5sum: 2d020cce47de979c5807e4d3a27ce7bc
+SHA1: ba063a23ff932e33fa925575c605a5b1ac630392
+SHA256: 4dda55bcb1d64e667642416ba28cbb87370308613fbfde3098cc9fed4bb81644
 
 Package: vn.iossp.storeauthfix
 Name: StoreAuthFix
@@ -964,3 +964,40 @@ Size: 17904
 MD5sum: a559ee75bd062d2ae98af176f0ff3d70
 SHA1: ea6df00a1b1a898011ab7c7192a3253c235acc5c
 SHA256: d2a4a92af14d4d0a32bf1003dfd80c180ef33b173df1472c485e151759910f86
+
+Package: vn.iossp.icleanerpro32
+Version: 7.6.1
+Section: Application
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Pre-Depends: apt, findutils, shell-cmds
+Depends: firmware (>= 4.0), vn.iossp.iconrepo, xz
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
+Architecture: iphoneos-arm
+Description: The first real iOS system cleaner & optimizer
+Name: iCleaner Pro 32bits
+Author: Exile.90
+Icon: file:///Library/IconRepos/Application.png
+Filename: ./debs/vn.iossp.icleanerpro32_7.6.1_iphoneos-arm.deb
+Size: 5135016
+MD5sum: c1343aba7ba2199aa4b443ddaca97536
+SHA1: d1b1229e92cfa0724f5dbd3874252882479eb985
+SHA256: c4710fcccc7db6e9c473aac8a34201310db496542a32a8eb08003fa5768673dd
+
+Package: vn.iossp.icleanerpro64
+Name: iCleaner Pro 64bits
+Version: 7.9.1
+Depends: firmware (>= 4.0), findutils, apt | apt7, vn.iossp.iconrepo, xz
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Architecture: iphoneos-arm
+Author: Ivano Bilenchi <repo@hackyouriphone.org>
+Section: Application
+Description: The first real iOS system cleaner & optimizer
+Maintainer: iOSSupportVN <iossp@hotmail.com>
+Icon: file:///Library/IconRepos/Application.png
+Filename: ./debs/vn.iossp.icleanerpro64_7.9.1_iphoneos-arm.deb
+Size: 6810866
+MD5sum: 90d1118906b22b32778810af9824dacd
+SHA1: 150161834989f92d8030341381d2f37af499e951
+SHA256: 385990592e9e59c6d02c12cc013f000732e20237bb54786ae9ddc114c7fc4c15
