@@ -944,10 +944,10 @@ Section: Tweak
 Depends: mobilesubstrate (>= 0.9.5000), vn.iossp.iconrepo, com.r333d.cylinder, openssh, com.saurik.afc2d, vn.iossp.veteris5, vn.iossp.legacywififix, vn.iossp.tubereplacer, vn.iossp.appsyncunified
 Icon: file:///Library/IconRepos/Tweak.png
 Filename: ./debs/vn.iossp.legacypack_4.0_iphoneos-arm.deb
-Size: 6602
-MD5sum: faf7e2a38ea0fde57ee17f54d0dd4e6a
-SHA1: 5fd717e31bcab20f04a127e18841596abac93fcb
-SHA256: a981608dd86a4effdee6314b1b9e0de6f4ea8809dd73fe3984f336917e46e757
+Size: 6854
+MD5sum: c8b651ed97e8a59fd551181a9dc55d26
+SHA1: 8a16204128ca70396228bec766f2d6639dfa1588
+SHA256: d23d15c77e69aa8e322b1f49fa9b187718ba2a932180c04b8030f3004cb3d05d
 
 Package: vn.iossp.storeauthfix
 Name: StoreAuthFix
